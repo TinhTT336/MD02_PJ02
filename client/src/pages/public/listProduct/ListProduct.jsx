@@ -261,7 +261,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
                                             />
                                         </div>
                                         <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                                            <h6 className=" mb-3 px-2" style={{ lineHeight: "1.8rem" }}>{pro.product_name.length > 70 ? (`${(pro.product_name).substring(0, 40)}...`) : (pro.product_name)}</h6>
+                                            <h6 className=" mb-3 px-2" style={{ lineHeight: "1.8rem" }}>{pro.product_name.length > 60 ? (`${(pro.product_name).substring(0, 40)}...`) : (pro.product_name)}</h6>
                                             <div className="d-flex justify-content-center">
                                                 {pro.beforeDiscount ? (<> <h6>{formatMoney(pro.price)}</h6>
                                                     <h6 className="text-muted ml-2">

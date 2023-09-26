@@ -9,6 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Link } from 'react-router-dom';
 import HeaderCopy from '../../../components/user/header/HeaderCopy';
 import instance from '../../../api/axios';
+import BackToTop from '../../../components/base/backToTop/BackToTop';
 
 export default function Cart({ title, cartLength, setIsLoadCartLength }) {
     // const [carts, setCarts] = useState([]);
@@ -187,8 +188,15 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
     return (
         <>
             {/* Modal xoa*/}
-            <Modal title="Xoá Danh mục sản phẩm" open={isModalOpenDelete} onOk={handleOkDelete} onCancel={handleCancelDelete} idDelete={idDelete}>
+            <Modal title="Cảnh báo" open={isModalOpenDelete} onOk={handleOkDelete} onCancel={handleCancelDelete} idDelete={idDelete}
+                footer={
+                    <>
+                        <button className='p-1 px-4 me-2 rounded btn-danger' onClick={handleOkDelete}>Xoá</button>
+                        <button className='p-1 px-4 rounded btn-secondary' onClick={handleCancelDelete}>Huỷ</button>
+                    </>
+                }>
                 <p>Bạn có chắc chắn muốn xoá không?</p>
+
             </Modal>
             <ToastContainer />
             <HeaderCopy cartLength={cartLength} />
@@ -212,7 +220,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                                 {listProduct && listProduct.length > 0 ? (listProduct.map((pro, index) => (
                                     <tr key={index}>
                                         <td className="align-middle">{index + 1}</td>
-                                        <td className="align-middle"><img src={pro.data.image} alt="" style={{ width: 50, borderRadius: "50%" }} /></td>
+                                        <td className="align-middle"><img src={pro.data.image} alt="" width={100} height={100} /></td>
                                         <td className="text-left  gap-1">
                                             {pro.data.product_name}
                                         </td>
@@ -280,6 +288,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                     </div>
                 </div>
             </div>
+            <BackToTop />
             <Footer />
         </>
     )

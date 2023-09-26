@@ -189,9 +189,9 @@ export default function ManagerOrder() {
                                         </div>
                                         {orderDetail && (
                                             <div className='d-flex flex-column me-3 gap-2'>
-                                                <span>{orderDetail.userOrder.fullname}</span>
-                                                <span>{orderDetail.userOrder.address}</span>
-                                                <span>{orderDetail.userOrder.phoneNumber}</span>
+                                                <span>{orderDetail?.userOrder?.fullname}</span>
+                                                <span>{orderDetail?.userOrder?.address}</span>
+                                                <span>{orderDetail?.userOrder?.phoneNumber}</span>
                                             </div>
                                         )}
                                     </div>
@@ -199,12 +199,12 @@ export default function ManagerOrder() {
                             </div>
                             <div className='mt-2 fw-bolder text-decoration-underline'>
                                 {orderDetail && (
-                                    <p>ID người đặt hàng: <span className=' fst-italic'>{orderDetail.userLogin.id}</span> </p>
+                                    <p >Người đặt hàng: <span className=' fst-italic'>{orderDetail?.userLogin?.fullname}</span> - ID: <span className=' fst-italic' >{orderDetail?.userLogin?.id}</span> </p>
                                 )}
                             </div>
                             <div className='mt-2 fw-bolder text-decoration-underline'>
                                 {orderDetail?.userOrder?.note && (
-                                    <p>Ghi chú đơn hàng: <span className=' fst-italic'>{orderDetail.userOrder.note}</span> </p>
+                                    <p>Ghi chú đơn hàng: <span className=' fst-italic'>{orderDetail?.userOrder?.note}</span> </p>
                                 )}
                             </div>
 
@@ -220,7 +220,7 @@ export default function ManagerOrder() {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {orderDetail ? (orderDetail.cart.map((order, index) => (
+                                    {orderDetail ? (orderDetail?.cart?.map((order, index) => (
                                         <tr>
                                             <th scope="row">{index + 1}</th>
                                             <td><img src={order.datas.image} alt="" width={36} height={36} /></td>

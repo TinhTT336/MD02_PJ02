@@ -25,7 +25,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://biocosmetics.vn/giai-phap/son-moi-la-gi-nhung-kien-thuc-ve-son-can-biet.html"}>
+                                        <Link to={"/list-product"}>
                                             Son môi là gì? Những kiến thức về son cần biết!
                                         </Link>
                                     </h6>
@@ -43,7 +43,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://vinmec.com/vi/tin-tuc/thong-tin-suc-khoe/lam-dep/cac-thanh-phan-cua-son-moi/"}>
+                                        <Link to={"list-product"}>
                                             Các thành phần của son môi...
                                         </Link>
                                     </h6>
@@ -61,7 +61,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://www.bachhoaxanh.com/kinh-nghiem-hay/ban-da-biet-cach-phan-biet-cac-loai-son-moi-thong-1137581"}>
+                                        <Link to={"list-product"}>
                                             Bạn đã biết cách phân biệt các loại son môi thông dụng hiện nay chưa?...
                                         </Link>
                                     </h6>
@@ -81,7 +81,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://www.happyskin.vn/cach-doc-thanh-phan-cua-son-moi"}>
+                                        <Link to={"list-product"}>
                                             Bí mật của các thành phần trong một thỏi son môi...
                                         </Link>
                                     </h6>
@@ -100,7 +100,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://vietcetera.com/vn/son-moi-lien-quan-gi-den-thay-doi-tam-trang"}>
+                                        <Link to={"list-product"}>
                                             Son môi liên quan gì đến thay đổi tâm trạng? ...
                                         </Link>
                                     </h6>
@@ -119,7 +119,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://www.elle.vn/xu-huong-lam-dep/son-moi-tot-va-cau-noi-bat-hu"}>
+                                        <Link to={"list-product"}>
                                             17 CÂU NÓI HAY VÀ BẤT HỦ VỀ SON MÔI TRONG LỊCH SỬ NGÀNH LÀM ĐẸP...
                                         </Link>
                                     </h6>
@@ -138,7 +138,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://knbeauty.net/chi-voi-mot-thoi-son-moi-ban-co-the-lam-nhung-gi/"}>
+                                        <Link to={"list-product"}>
                                             CHỈ VỚI MỘT THỎI SON MÔI BẠN CÓ THỂ LÀM NHỮNG GÌ..
                                         </Link>
                                     </h6>
@@ -158,7 +158,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://beautybox.com.vn/blogs/cach-trang-diem/sau-khi-phun-moi-co-danh-son-duoc-khong"}>
+                                        <Link to={"list-product"}>
                                             Giải đáp thắc mắc: Sau khi phun môi có đánh son được không?...
                                         </Link>
                                     </h6>
@@ -177,7 +177,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://juno.vn/blogs/dep/1000093133-chi-trong-son-khong-phai-la-nguyen-nhan-gay-tham-moi"}>
+                                        <Link to={"list-product"}>
                                             Chì trong son không phải là nguyên nhân gây thâm môi!...
                                         </Link>
                                     </h6>
@@ -196,7 +196,7 @@ export default function Blog({ title, cartLength }) {
                                 />
                                 <div className="blog__item__text">
                                     <h6>
-                                        <Link to={"https://polangflower.vn/1001-su-that-ve-son-duong-moi-chong-nang"}>
+                                        <Link to={"list-product"}>
                                             1001 Sự Thật Về Son Dưỡng Môi Chống Nắng...
                                         </Link>
                                     </h6>

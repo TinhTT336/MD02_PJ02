@@ -192,7 +192,7 @@
         "phoneNumber": null
       },
       "order_at": "26/09/2023, 02:22:05",
-      "status": 1,
+      "status": 3,
       "totalPrice": 1998000,
       "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
       "id": 4
@@ -379,7 +379,7 @@
         "id": 9
       },
       "order_at": "26/09/2023, 10:15:32",
-      "status": 1,
+      "status": 2,
       "totalPrice": 4343000,
       "userId": 9,
       "id": 7
@@ -390,6 +390,11 @@
       "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
       "cartDetails": [],
       "id": 1
+    },
+    {
+      "userId": 9,
+      "cartDetails": [],
+      "id": 2
     }
   ],
   "categories": [

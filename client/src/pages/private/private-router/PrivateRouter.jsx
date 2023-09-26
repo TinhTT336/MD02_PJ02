@@ -14,10 +14,10 @@ export default function PrivateRouter() {
     useEffect(() => {
         if (userLogin && userLogin.role === 0) {
             navigate("/admin/home")
-            notification.success({
-                message: "Thành công!",
-                description: "Đăng nhập thành công vào trang quản trị"
-            })
+            // notification.success({
+            //     message: "Thành công!",
+            //     description: "Đăng nhập thành công vào trang quản trị"
+            // })
         } else {
             navigate('/login')
             notification.warning({

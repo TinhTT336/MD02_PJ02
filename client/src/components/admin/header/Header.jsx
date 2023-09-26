@@ -7,11 +7,11 @@ import { Modal } from 'antd';
 export default function Header() {
     const navigate = useNavigate();
     // lay thong tin userLogin tu local ve
-    const userLoginAdmin = JSON.parse(localStorage.getItem('userLoginAdmin'));
+    const userLogin = JSON.parse(localStorage.getItem('userLogin'));
 
     // ham dang xuat
     const handleLogout = () => {
-        localStorage.removeItem('userLoginAdmin');
+        localStorage.removeItem('userLogin');
         navigate("/");
     }
 
@@ -41,13 +41,13 @@ export default function Header() {
                         <BellOutlined style={{ fontSize: 20 }} />
                         <MessageOutlined style={{ fontSize: 20 }} />
                         <div className="dropdown  " >
-                            {userLoginAdmin !== null ?
-                                (userLoginAdmin.active === true && userLoginAdmin.role === 0 ? (<><span
+                            {userLogin !== null ?
+                                (userLogin.active === true && userLogin.role === 0 ? (<><span
                                     className="dropdown-toggle account-dropdown"
                                     data-toggle="dropdown"
                                     data-bs-display="static" aria-expanded="false"
                                 >
-                                    <img src={userLoginAdmin.image} width={30} height={30} className='rounded-circle' />  {userLoginAdmin.fullname}
+                                    <img src={userLogin.image} width={30} height={30} className='rounded-circle' />  {userLogin.fullname}
                                 </span>
                                     <div className="dropdown-menu m-0  custom-dropdown-menu dropdown-menu-right mt-3 rounded">
                                         <a className="dropdown-item ">

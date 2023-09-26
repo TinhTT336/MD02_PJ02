@@ -1,0 +1,16 @@
+.banner {
+  /* height: 300px; */
+  background: url(../../../../public/images/banner/banner.jpeg) no-repeat !important;
+  background-position: center;
+  background-size: cover !important;
+  width: 100vw !important;
+  padding: 0 !important;
+  margin: 0 0 36px 0 !important;
+}
+.banner-inner {
+  width: 100% !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}

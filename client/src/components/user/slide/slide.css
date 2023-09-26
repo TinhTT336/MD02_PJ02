@@ -1,0 +1,15 @@
+.t-btn-banner {
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding: 15px 40px !important;
+  border-radius: 50px;
+  border: 1.5px solid #000;
+}
+.t-btn-banner:hover {
+  color: #fff;
+  background-color: #000;
+}

@@ -1,0 +1,64 @@
+.t-search > form,
+t.t-search,
+.t-search > form > input-group {
+  border-radius: 100px !important;
+}
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff !important;
+}
+.t-container-navbar {
+  background-color: #fff;
+  /* box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.15); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.navbar-title {
+  color: #fff !important;
+}
+
+.nav-item-icon:hover {
+  color: #d29c97 !important;
+}
+/* .dropdown-menu > dropdown-item-t :active {
+  background-color: #c17a73;
+}
+.dropdown-menu > dropdown-item-t::before {
+  background-color: #c17a73;
+} */
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding-top: 0 !important;
+}
+.t-header > div {
+  height: 36px !important;
+}
+.content-style {
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #c17a74;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0px 0px 200px 200px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.slick-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0 !important;
+  height: 0 !important;
+  content: "" !important;
+  text-align: center;
+  opacity: 0.25;
+  color: #000;
+}

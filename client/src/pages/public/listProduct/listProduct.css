@@ -1,0 +1,48 @@
+/* .list-product form {
+  overflow-y: scroll;
+  height: 300px !important;
+} */
+.listproduct-header {
+  /* background: url("https://img.freepik.com/free-photo/layout-cosmetic-makeup-beauty-products_23-2148113429.jpg")
+    no-repeat;
+  background-size: cover; */
+  /* background-color: #edc9b5 !important; */
+  padding: 0 !important;
+}
+.category-items {
+  padding: 6px 6px 6px 12px !important;
+  border-radius: 4px !important;
+  border-radius: 0px 100px 100px 0 !important;
+}
+.category-items:hover {
+  padding-left: 2.5rem !important;
+  transition: all 0.3s ease-in-out;
+}
+/* .category-items:focus {
+  background-color: #d29c97 !important;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
+}
+.category-items:active {
+  background-color: #d29c97 !important;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
+} */
+/* .category-items.active ::after {
+  background-color: #d29c97 !important;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
+} */
+.product-item .product-img > img {
+  width: 300px !important;
+  height: 300px !important;
+}
+.product-list-item {
+  min-height: 520px !important;
+}
+.card-body {
+  min-height: 140px !important;
+}

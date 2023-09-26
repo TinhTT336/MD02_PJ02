@@ -1,0 +1,11 @@
+.t-navbar {
+  position: sticky !important;
+  top: 0 !important;
+}
+.custom-dropdown-menu {
+  position: absolute !important;
+  right: 10px !important;
+}
+.account-dropdown {
+  position: relative !important;
+}

@@ -1,0 +1,9 @@
+.manager-card img {
+  object-fit: cover;
+  padding: 16px 16px 6px;
+  height: 160px;
+}
+.manager-card {
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

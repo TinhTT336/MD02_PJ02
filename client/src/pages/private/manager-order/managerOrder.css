@@ -1,0 +1,7 @@
+.btn-action {
+  border: none !important;
+  outline: none !important;
+}
+.btn-action:hover {
+  opacity: 0.85;
+}

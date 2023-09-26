@@ -1,0 +1,13 @@
+.sidebar {
+  position: fixed;
+  max-width: 230px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #222e3c;
+  color: #fff;
+}
+
+.content-container {
+  margin-left: 230px; /* Tương ứng với chiều rộng của sidebar */
+}

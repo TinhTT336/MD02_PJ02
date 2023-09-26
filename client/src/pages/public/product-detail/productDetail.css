@@ -1,0 +1,15 @@
+.carousel-inner .carousel-item {
+  height: 511px !important;
+}
+.carousel-inner .carousel-item .img-product-detail {
+  height: 100% !important;
+  object-fit: cover;
+}
+.btn-wishlist:hover {
+  background-color: #d29c97;
+  color: #fff !important;
+  border: transparent;
+}
+/* .nav-link {
+  color: #d29c97 !important;
+} */

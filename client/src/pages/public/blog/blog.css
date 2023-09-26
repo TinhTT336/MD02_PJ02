@@ -1,0 +1,118 @@
+.blog {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.blog__item {
+  margin-bottom: 35px;
+}
+
+.blog__item__pic {
+  height: 240px;
+}
+
+.blog__item__pic.large__item {
+  height: 540px;
+}
+
+.blog__item__text {
+  padding: 25px 20px 0 0;
+  margin-right: 30px;
+  background: #ffffff;
+  margin-top: -54px;
+}
+
+.blog__item__text h6 {
+  margin-bottom: 6px;
+}
+
+.blog__item__text h6 a {
+  color: #111111;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.blog__item__text ul li {
+  font-size: 12px;
+  color: #888888;
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+  position: relative;
+}
+
+.blog__item__text ul li span {
+  color: #111111;
+}
+
+.blog__item__text ul li:after {
+  position: absolute;
+  right: -17px;
+  top: 0px;
+  content: "|";
+}
+
+.blog__item__text ul li:last-child {
+  margin-right: 0;
+}
+
+.blog__item__text ul li:last-child:after {
+  display: none;
+}
+
+.primary-btn.load-btn {
+  color: #111111;
+  background: #f2f2f2;
+  padding: 12px 85px 10px;
+  border-radius: 50px;
+}
+.set-bg-1 {
+  background: url(../../../../public/images/blog/blog1.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-2 {
+  background: url(../../../../public/images/blog/blog2.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-3 {
+  background: url(../../../../public/images/blog/blog3.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-4 {
+  background: url(../../../../public/images/blog/blog4.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-5 {
+  background: url(../../../../public/images/blog/blog5.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-6 {
+  background: url(../../../../public/images/blog/blog6.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-7 {
+  background: url(../../../../public/images/blog/blog7.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-8 {
+  background: url(../../../../public/images/blog/blog8.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-9 {
+  background: url(../../../../public/images/blog/blog9.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.set-bg-10 {
+  background: url(../../../../public/images/blog/blog10.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}

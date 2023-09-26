@@ -1,0 +1,86 @@
+.cart_container h3 {
+  display: block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px !important;
+}
+
+.product-content-table {
+  box-shadow: 1px 4px 4px 4px #161414b1;
+  font-size: 14px !important;
+  border-radius: 8px !important;
+  margin-top: 30px !important;
+}
+.table-content thead th {
+  background-color: #e6e4e4;
+}
+.table-content table,
+th,
+td {
+  border-bottom: 1px solid #e6e4e4 !important;
+  display: table-cell !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  color: #000 !important;
+}
+.div-search {
+  padding: 2px 16px;
+  border: 1px solid #333 !important;
+  border-radius: 100px;
+  width: 35%;
+}
+.input-search-product {
+  width: 66% !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.btn-search-product {
+  border: none !important;
+  background-color: #fff;
+}
+.btn-add-product {
+  background-color: #0d6efd;
+  border: none !important;
+  outline: none;
+  color: #fff;
+  opacity: 0.85;
+}
+.btn-add-product:hover {
+  opacity: 1;
+}
+
+.waiting {
+  background-color: #8a8a8e;
+  width: 10rem;
+}
+
+.accepted {
+  background-color: #8cc63f;
+  width: 10rem;
+}
+
+.denied {
+  background-color: #353537;
+  width: 10rem;
+}
+
+.no_click {
+  pointer-events: none;
+  display: none;
+}
+.pagination-wrapper {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+}
+
+/* .pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.ant-pagination {
+  white-space: nowrap;
+} */

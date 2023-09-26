@@ -1,0 +1,15 @@
+.error-page {
+  min-height: 100vh;
+  padding-top: 0;
+  color: #fff;
+}
+.t-flex-row {
+  margin: 0 auto;
+}
+.error-page h1 {
+  font-size: 12rem;
+  font-family: Ubuntu, sans-serif;
+}
+.text-color-404:hover {
+  color: #fff !important;
+}

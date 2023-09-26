@@ -1,0 +1,182 @@
+.form-container-login {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.form-container-login .form-container-item {
+  height: 100%;
+  border-radius: 6px;
+}
+
+.form-container-login .form-container-content {
+  width: 50%;
+  margin: 10% auto 20px !important;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.form-container-login .form-container-left-in {
+  width: 44%;
+  float: left;
+  background: url(../../../../public/images/login/login1.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  height: 64vh;
+  border-radius: 6px 0px 0px 6px;
+}
+.form-left-content-in {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  height: 100%;
+  padding-top: 45%;
+}
+.form-left-content-in h1 {
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+}
+.form-left-content-in p {
+  color: #fff;
+  padding: 24px 20px 4px !important;
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+.text-color {
+  color: #000 !important;
+  text-align: center;
+  font-size: 13px !important;
+}
+.form-container-right-in {
+  /* background-color: #202123; */
+  width: 56%;
+  float: left;
+  padding: 24px 0 0;
+  height: 64vh;
+}
+.form-container-right-in .form-content {
+  width: 100% !important;
+  padding-top: 10%;
+}
+
+.form-content input[type="text"],
+.form-content input[type="password"] {
+  width: 75%;
+  height: 36px;
+  padding: 0 8px;
+  /* color: #fff; */
+  font-size: 14px;
+  font-weight: 200;
+  background-color: transparent;
+
+  border-bottom: 5px solid #989696;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  margin: 0 auto 18px;
+  display: block;
+  outline: none;
+}
+/* .form-content input[type="text"]:hover,
+.form-content input[type="password"]:hover {
+  color: #fff;
+  border-bottom: 5px solid #fff;
+}
+.form-content input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.form-content input:-ms-input-placeholder {
+  color: #fff !important;
+}
+.form-content input:hover::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.form-content input:hover:-ms-input-placeholder {
+  color: #fff !important;
+} */
+.form-content .text-err {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 8px !important;
+  margin-top: -5px !important;
+  text-align: center;
+}
+.form-container-login .btn {
+  width: 68%;
+  border-radius: 20px !important;
+  border: 1px solid #ccc !important;
+  /* margin: 6px auto 10px !important; */
+  padding: 8px !important;
+}
+
+.form-container-login .btn-signin {
+  color: #fff;
+  background: #000;
+  text-transform: uppercase;
+  display: block;
+  margin: 15px auto !important;
+  width: 70% !important;
+}
+.form-left-content-in .btn-signin:hover {
+  background-color: #fff;
+  color: #000;
+}
+.form-container-login .btn-signin:active {
+  transform: scale(94%);
+}
+.form-container-login .btn-signup {
+  color: #fff;
+  background: #000;
+  text-transform: uppercase;
+  display: block;
+  margin: 12px auto !important;
+  width: 70% !important;
+}
+.form-container-login .btn-signup:hover {
+  background-color: #c17a74;
+}
+.form-container-login .btn-signup:active {
+  transform: scale(94%);
+}
+
+.login-with-gg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container-right-in .btn-signin:hover {
+  background-color: #c17a74 !important;
+  /* color: #000 !important; */
+  border: none;
+  color: #fff;
+  text-decoration: none !important;
+}
+.form-container-login .btn-signin:active {
+  transform: scale(94%);
+}
+
+.form-container-login .btn-signin-gg {
+  width: 72% !important;
+  margin: 6px auto 10px !important;
+  background-color: #000 !important;
+  color: #fff;
+  border-radius: 50px !important;
+  border: 1px solid #ccc !important;
+  padding: 12px 0px !important;
+  margin: 6px auto 10px !important;
+  text-transform: uppercase;
+}
+.form-container-login .btn-signin-gg:hover {
+  background-color: #c17a74 !important;
+  /* color: #000 !important; */
+}
+.form-container-login .btn-signin-gg:active {
+  transform: scale(94%);
+}

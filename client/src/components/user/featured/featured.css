@@ -1,0 +1,49 @@
+.flaticon-shipped:before {
+  content: "\f100" !important;
+}
+.flaticon-box:before {
+  content: "\f101" !important;
+}
+.flaticon-award:before {
+  content: "\f102" !important;
+}
+.flaticon-customer-service:before {
+  content: "\f103" !important;
+}
+.flaticon-shipped:before:hover,
+.flaticon-box:before:hover,
+.flaticon-award:before:hover,
+.flaticon-customer-service:before:hover {
+  border-radius: 50% !important;
+  background-color: #d29c97 !important;
+  color: #fff !important;
+}
+
+/* .featured-icon::before:hover {
+  border-radius: 50% !important;
+  background-color: #d29c97 !important;
+  color: #fff !important;
+}
+.fa-shipping-fast:before:hover {
+  color: #fff !important;
+  background-color: #d29c97 !important;
+}
+
+.section_service_end .service_item_ed .iconx {
+  display: inline-block;
+  width: 299px;
+  height: 200px;
+  border: solid 2px #ebebeb;
+  background: #fff;
+  border-radius: 50%;
+  line-height: 71px;
+  font-size: 24px;
+  text-align: center;
+}
+.icon-earphones:before {
+  content: "\e03d";
+} */
+.section_service_end .service_item_ed .iconx :hover {
+  color: #fff !important;
+  background-color: #d29c97 !important;
+}

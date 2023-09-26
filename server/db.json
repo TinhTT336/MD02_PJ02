@@ -1,0 +1,850 @@
+{
+  "orders": [
+    {
+      "cart": [
+        {
+          "productId": 11,
+          "quantity": 1,
+          "datas": {
+            "id": 11,
+            "product_name": "Son tint mịn lì cao cấp Rouge Signature 115 I Am Worth It",
+            "price": 249000,
+            "beforeDiscount": "",
+            "brand": "L'Oreal",
+            "from": "Việt Nam",
+            "category_id": 4,
+            "category_item_name": "Trang điểm môi",
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson_li_loreal.jpeg?alt=media&token=b3fa451c-88b8-4abd-932c-b596ed7ec149",
+            "image1": "../../../../public/images/product-detail/sontL1.webp",
+            "image2": "../../../../public/images/product-detail/sontL2.webp",
+            "description": "Không bong tróc, không lem, không khô môi. - Công thức 'dầu trong nước' độc đáo - Giữ màu lâu tới 24 giờ. Tạo dấu ấn cho môi của bạn với màu son L'Oréal Paris Rouge Signature Liquid Lip Ink mới. Bộ sưu tập mực môi siêu lì là sự kết hợp giữa màu son đậm nổi bật với lớp son siêu nhẹ, cho bạn cảm giác đôi môi nhẹ bẫng tuyệt đỉnh. Tạm biệt lớp son lâu trôi nặng nề, dày cộm và cảm giác khó chịu thường trực trên môi. Công thức 'dầu trong nước' giúp đôi môi được 'thở', để lại dấu ấn khó quên trên làn môi với cảm giác thoải mái hoàn hảo xuyên suốt ngày dài. Mỗi lần lướt cọ sẽ giúp môi lên màu cực chuẩn ngay lập tức và bền màu với lớp hoàn thiện mềm mại, mịn lì. Với sắc thái màu theo xu hướng từ nâu đất đến đỏ mận và đỏ cam - mọi phụ nữ đều có thể tạo nên dấu ấn phong cách với màu son của riêng mình. Với Rouge Signature, đơn giản là nhất. Kết cấu nhẹ hơn, nhiều màu sắc hơn. Ít dư thừa hơn, tác động nhiều hơn.",
+            "stock": 20,
+            "usage": "Dùng hằng ngày 2- 3 lần hoặc có thể dùng trước khi son môi."
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "ac",
+        "email": "ac@gmail.com",
+        "phoneNumber": "0765433434",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": "giao hàng trong giờ hành chính"
+      },
+      "userLogin": {
+        "email": "ac@gmail.com",
+        "fullname": "ac",
+        "phoneNumber": "",
+        "address": "",
+        "image": "../../../public/images/avatar.jpeg",
+        "role": 1,
+        "active": true,
+        "cart": [],
+        "id": 9
+      },
+      "order_at": "26/09/2023, 00:11:58",
+      "status": 1,
+      "totalPrice": 249000,
+      "userId": 9,
+      "id": 1
+    },
+    {
+      "cart": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "datas": {
+            "id": 2,
+            "product_name": "Son Thỏi Dưỡng Ẩm THE FACE SHOP Collagen Ampoule Lipstick 3.5g",
+            "price": "649000",
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 8,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonbongTFS3.webp?alt=media&token=76c70ab2-e609-4fac-a610-96bc2920f569",
+            "image1": "../../../public/images/product-detail/sonduong/sonduongTFS3.jpeg",
+            "description": "Son thỏi COLLAGEN AMPOULE LIPSTICK là sản phẩm son thỏi vừa được ra mắt của THEFACESHOP, với kết cấu son mịn như nhung, vừa có độ bám màu cao lại vừa dưỡng cho đôi môi của bạn không bị khô khi sử dụng, hứa hẹn sẽ làm cho các tín đồ son môi cực kì hài lòng!\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK là dòng son môi đặc biệt có chứa tinh chất Collagen giàu dưỡng chất giúp làn môi luôn căng mọng, quyến rũ tự nhiên trong suốt thời gian sử dụng mà không lo thâm môi.\n\nKhông dừng lại đó, Son thỏi COLLAGEN AMPOULE LIPSTICK với công nghệ độc quyền của hãng khiến kết cấu son trở nên mềm mượt, giúp màu son lên môi chuẩn tự nhiên và bền màu nhiều giờ liền. Ngoài ra, khi thoa son còn có khả năng làm mờ các nếp gấp trên môi, giúp môi trông mịn màng và căng mọng.\n\nVới thiết kế vỏ ngoài ánh kim vô cùng sang trọng, tinh tế chắc chắn sẽ làm ngây ngất các tín đồ của son môi ngay từ cái nhìn đầu tiên.\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK với những màu sắc phong phú, thời thượng cho bạn thoải mái lựa chọn để phù hợp với sở thích của bản thân, giúp đôi môi bạn trở nên tươi tắn, quyến rũ và thu hút sự chú ý của người đối diện, đây chắc chắn là thỏi son không thể thiếu trong bộ sưu tập son môi của bạn!",
+            "usage": "Thành phần\nTinh chất vàng kết hợp với collagen tạo nên những dưỡng chất tối ưu phủ đầy bề mặt môi, giúp làm mờ các nếp và các nếp gấp trên đôi môi, giúp tăng cường khả năng chống lão hóa và làm sáng vùng da môi.",
+            "stock": 10
+          }
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "datas": {
+            "id": 3,
+            "product_name": " Son Thỏi The Face Shop Căng Bóng Tự Nhiên New Bold Sheer Glow Lipstick 3.5g",
+            "price": 649000,
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 5,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonduongTFS3.jpeg?alt=media&token=9f1b89d3-14ea-4296-a029-b82127237fe4",
+            "image1": "../../../public/images/product-detail/sonTFS1.webp",
+            "image2": "../../../public/images/product-detail/sonTFS2.jpeg",
+            "description": "Son thỏi New Bold Sheer Glow Lipstick mang hiệu ứng căng bóng, tự nhiên không làm lộ vân môi, bổ sung ẩm cần thiết giúp đôi môi được trang điểm xinh xắn, nổi bật. Chứa công thức 8 loại dầu giàu dưỡng chất vitamin E tạo nên hàng rào ẩm tự nhiên, bảo vệ làn da môi khỏi tình trạng bong tróc, nứt nẻ. Cộng với các hạt phấn siêu nhỏ, siêu mịn giúp làm đầy rãnh môi mang lại đôi môi căng mọng. ",
+            "usage": "Thoa một lượng son dưỡng để bảo vệ môi. Vặn nắp thoa một lượng son thỏi hiệu ứng căng bóng tự nhiên New Bold Sheer Glow Lipstick vừa đủ lên môi và hiệu chỉnh đậm nhạt phù hợp với phong cách trang điểm của bạn.",
+            "stock": 17
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An",
+        "email": "ac@gmail.com",
+        "phoneNumber": "0765433434",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": ""
+      },
+      "userLogin": {
+        "email": "ac@gmail.com",
+        "fullname": "ac",
+        "phoneNumber": "",
+        "address": "",
+        "image": "../../../public/images/avatar.jpeg",
+        "role": 1,
+        "active": true,
+        "cart": [],
+        "id": 9
+      },
+      "order_at": "26/09/2023, 00:12:39",
+      "status": 1,
+      "totalPrice": 1298000,
+      "userId": 9,
+      "id": 2
+    },
+    {
+      "cart": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "datas": {
+            "id": 6,
+            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
+            "price": "999000",
+            "brand": "MAC",
+            "from": "Canada",
+            "category_id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
+            "image1": "../../../public/images/product-detail/man-TFS1.webp",
+            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
+            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
+            "stock": "10",
+            "beforeDiscount": "1450000"
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An",
+        "email": "tinhtt336@gmail.com",
+        "phoneNumber": "0765433434",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": ""
+      },
+      "userLogin": {
+        "email": "tinhtt336@gmail.com",
+        "fullname": "Tinh Tran",
+        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
+        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+        "role": 1,
+        "active": true,
+        "phoneNumber": null
+      },
+      "order_at": "26/09/2023, 02:02:17",
+      "status": 1,
+      "totalPrice": 999000,
+      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+      "id": 3
+    },
+    {
+      "cart": [
+        {
+          "productId": 6,
+          "quantity": 2,
+          "datas": {
+            "id": 6,
+            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
+            "price": "999000",
+            "brand": "MAC",
+            "from": "Canada",
+            "category_id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
+            "image1": "../../../public/images/product-detail/man-TFS1.webp",
+            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
+            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
+            "stock": "10",
+            "beforeDiscount": "1450000"
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An",
+        "email": "tinhtt336@gmail.com",
+        "phoneNumber": "0665435656",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": ""
+      },
+      "userLogin": {
+        "email": "tinhtt336@gmail.com",
+        "fullname": "Tinh Tran",
+        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
+        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+        "role": 1,
+        "active": true,
+        "phoneNumber": null
+      },
+      "order_at": "26/09/2023, 02:22:05",
+      "status": 1,
+      "totalPrice": 1998000,
+      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+      "id": 4
+    },
+    {
+      "cart": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "datas": {
+            "id": 6,
+            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
+            "price": "999000",
+            "brand": "MAC",
+            "from": "Canada",
+            "category_id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
+            "image1": "../../../public/images/product-detail/man-TFS1.webp",
+            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
+            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
+            "stock": "10",
+            "beforeDiscount": "1450000"
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An",
+        "email": "tinhtt336@gmail.com",
+        "phoneNumber": "0765433434",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": ""
+      },
+      "userLogin": {
+        "email": "tinhtt336@gmail.com",
+        "fullname": "Tinh Tran",
+        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
+        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+        "role": 1,
+        "active": true,
+        "phoneNumber": null
+      },
+      "order_at": "26/09/2023, 02:26:52",
+      "status": 1,
+      "totalPrice": 999000,
+      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+      "id": 5
+    },
+    {
+      "cart": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "datas": {
+            "id": 6,
+            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
+            "price": "999000",
+            "brand": "MAC",
+            "from": "Canada",
+            "category_id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
+            "image1": "../../../public/images/product-detail/man-TFS1.webp",
+            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
+            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
+            "stock": 9,
+            "beforeDiscount": "1450000"
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An",
+        "email": "tinhtt336@gmail.com",
+        "phoneNumber": "0765433434",
+        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
+        "note": ""
+      },
+      "userLogin": {
+        "email": "tinhtt336@gmail.com",
+        "fullname": "Tinh Tran",
+        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
+        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+        "role": 1,
+        "active": true,
+        "phoneNumber": null
+      },
+      "order_at": "26/09/2023, 02:40:47",
+      "status": 1,
+      "totalPrice": 999000,
+      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+      "id": 6
+    },
+    {
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "datas": {
+            "id": 1,
+            "product_name": "Son Lì Mềm Mại Môi THE FACE SHOP Rouge Powder Matte (3.2g)",
+            "price": "549000",
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonliTFS.png?alt=media&token=53095782-d219-4259-ac98-016a623097f4",
+            "image1": "../../../public/images/product-detail/sonli/sonliTFS2.png",
+            "description": "Son lì Rouge Powder Matte có thiết kế đơn giản, thời thượng. Vỏ ngoài tệp với màu son, bắt mắt và tiện dụng. Đầu son vát nhọn giúp dễ dàng viền môi và tô đều son ở cả những khóe môi. Chất son matte nhưng vẫn chứa nhiều dưỡng chất giúp son lên môi mềm mượt như nhung, không bị khô, lộ vân môi.",
+            "usage": "Nổi bật với 6 màu sắc tươi tắn thời trang\nLên màu chuẩn tự nhiên\nChất son mịn, mướt môi không gây khô môi\nSon bền màu lưu giữ lâu trên môi.",
+            "stock": 6
+          }
+        },
+        {
+          "productId": 2,
+          "quantity": 4,
+          "datas": {
+            "id": 2,
+            "product_name": "Son Thỏi Dưỡng Ẩm THE FACE SHOP Collagen Ampoule Lipstick 3.5g",
+            "price": "649000",
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 8,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonbongTFS3.webp?alt=media&token=76c70ab2-e609-4fac-a610-96bc2920f569",
+            "image1": "../../../public/images/product-detail/sonduong/sonduongTFS3.jpeg",
+            "description": "Son thỏi COLLAGEN AMPOULE LIPSTICK là sản phẩm son thỏi vừa được ra mắt của THEFACESHOP, với kết cấu son mịn như nhung, vừa có độ bám màu cao lại vừa dưỡng cho đôi môi của bạn không bị khô khi sử dụng, hứa hẹn sẽ làm cho các tín đồ son môi cực kì hài lòng!\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK là dòng son môi đặc biệt có chứa tinh chất Collagen giàu dưỡng chất giúp làn môi luôn căng mọng, quyến rũ tự nhiên trong suốt thời gian sử dụng mà không lo thâm môi.\n\nKhông dừng lại đó, Son thỏi COLLAGEN AMPOULE LIPSTICK với công nghệ độc quyền của hãng khiến kết cấu son trở nên mềm mượt, giúp màu son lên môi chuẩn tự nhiên và bền màu nhiều giờ liền. Ngoài ra, khi thoa son còn có khả năng làm mờ các nếp gấp trên môi, giúp môi trông mịn màng và căng mọng.\n\nVới thiết kế vỏ ngoài ánh kim vô cùng sang trọng, tinh tế chắc chắn sẽ làm ngây ngất các tín đồ của son môi ngay từ cái nhìn đầu tiên.\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK với những màu sắc phong phú, thời thượng cho bạn thoải mái lựa chọn để phù hợp với sở thích của bản thân, giúp đôi môi bạn trở nên tươi tắn, quyến rũ và thu hút sự chú ý của người đối diện, đây chắc chắn là thỏi son không thể thiếu trong bộ sưu tập son môi của bạn!",
+            "usage": "Thành phần\nTinh chất vàng kết hợp với collagen tạo nên những dưỡng chất tối ưu phủ đầy bề mặt môi, giúp làm mờ các nếp và các nếp gấp trên đôi môi, giúp tăng cường khả năng chống lão hóa và làm sáng vùng da môi.",
+            "stock": 10
+          }
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "datas": {
+            "id": 3,
+            "product_name": " Son Thỏi The Face Shop Căng Bóng Tự Nhiên New Bold Sheer Glow Lipstick 3.5g",
+            "price": 649000,
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 5,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonduongTFS3.jpeg?alt=media&token=9f1b89d3-14ea-4296-a029-b82127237fe4",
+            "image1": "../../../public/images/product-detail/sonTFS1.webp",
+            "image2": "../../../public/images/product-detail/sonTFS2.jpeg",
+            "description": "Son thỏi New Bold Sheer Glow Lipstick mang hiệu ứng căng bóng, tự nhiên không làm lộ vân môi, bổ sung ẩm cần thiết giúp đôi môi được trang điểm xinh xắn, nổi bật. Chứa công thức 8 loại dầu giàu dưỡng chất vitamin E tạo nên hàng rào ẩm tự nhiên, bảo vệ làn da môi khỏi tình trạng bong tróc, nứt nẻ. Cộng với các hạt phấn siêu nhỏ, siêu mịn giúp làm đầy rãnh môi mang lại đôi môi căng mọng. ",
+            "usage": "Thoa một lượng son dưỡng để bảo vệ môi. Vặn nắp thoa một lượng son thỏi hiệu ứng căng bóng tự nhiên New Bold Sheer Glow Lipstick vừa đủ lên môi và hiệu chỉnh đậm nhạt phù hợp với phong cách trang điểm của bạn.",
+            "stock": 17
+          }
+        },
+        {
+          "productId": 4,
+          "quantity": 1,
+          "datas": {
+            "id": 4,
+            "product_name": "Son Thỏi Hiệu Ứng Bóng Mướt Rouge Shine Vivid 4.8g",
+            "price": "549000",
+            "beforeDiscount": "",
+            "brand": "The Face Shop",
+            "from": "Hàn Quốc",
+            "category_id": 3,
+            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonliTFS21.webp?alt=media&token=137e48c4-9254-4649-8e15-fa6ddcf17b4a",
+            "image1": "../../../public/images/product-detail/toner-TFS1.avif",
+            "image2": "../../../public/images/product-detail/toner-TFS2.avif",
+            "description": "Rouge Shine Vivid là một trong những lựa chọn tuyệt vời cho những đôi môi hay khô tróc, thiếu ẩm và môi mỏng. Với hiệu ứng bóng cùng khả năng cấp ẩm làm mượt môi, Rouge Shine Vivid mang lại bờ môi bóng mướt, cuốn hút với những sắc màu nổi bật.\nBộ sưu tập son môi Rouge Shine Vivid với 10 sắc thái khác nhau, kết hợp với chất son dạng gel mang lại cảm giác \"tan chảy\" trên bờ môi chỉ sau một lần thoa. Sản phẩm chứa tinh dầu dưỡng ẩm tạo hiệu ứng lâu trôi đồng thời hiệu chỉnh màu sắc son trên môi một cách chuẩn xác hơn.\n\nKết cấu son môi hiệu ứng bóng mướt Rouge Shine Vivid nhẹ, mỏng cho cảm giác êm mịn và dễ dàng lướt nhẹ trên bờ môi, mang lại đôi môi căng bóng, mượt mà ở mọi góc độ.",
+            "usage": "Son môi có màu sắc sống động với 10 sắc thái khác nhau và chứa tinh dầu cấp ẩm giúp mang đến cho bạn một làn môi tỏa sáng và quyến rũ với độ bám cao.\n\nKết cấu son dạng gel mỏng chứa chất dưỡng da dạng serum giúp mang đến độ bóng lâu dài đồng thời cung cấp độ sắc tố cao và bám màu môi với kết cấu dạng gel và bóng.",
+            "stock": 25
+          }
+        }
+      ],
+      "userOrder": {
+        "fullname": "An An",
+        "email": "ac@gmail.com",
+        "phoneNumber": "0665435656",
+        "address": "Mỹ Đình 1, Nam Từ Liêm, Hà Nội",
+        "note": "Gọi trước khi giao hàng"
+      },
+      "userLogin": {
+        "email": "ac@gmail.com",
+        "fullname": "ac",
+        "phoneNumber": "0665435656",
+        "address": "Hà Nội",
+        "image": "../../../public/images/avatar.jpeg",
+        "dateOfBirth": "11/11/2000",
+        "role": 1,
+        "active": true,
+        "id": 9
+      },
+      "order_at": "26/09/2023, 10:15:32",
+      "status": 1,
+      "totalPrice": 4343000,
+      "userId": 9,
+      "id": 7
+    }
+  ],
+  "carts": [
+    {
+      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
+      "cartDetails": [],
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "category_name": "Son dưỡng - Lip Balm",
+      "image": "../../../../public/images/category/cat1.png",
+      "id": 8
+    },
+    {
+      "category_name": "Son kem - Creame Lipstick",
+      "image": "../../../../public/images/category/cat2.jpg",
+      "id": 1
+    },
+    {
+      "category_name": "Son lì - Matte Lipstick",
+      "image": "../../../../public/images/category/cat3.jpeg",
+      "id": 2
+    },
+    {
+      "category_name": "Son bóng - Lip Gross",
+      "image": "../../../../public/images/category/cat4.jpeg",
+      "id": 3
+    },
+    {
+      "category_name": "Son nước - Lip tint",
+      "image": "../../../../public/images/category/cat5.jpeg",
+      "id": 4
+    },
+    {
+      "category_name": "Son nhũ - Pearly Lipstick",
+      "image": "../../../../public/images/category/cat6.jpeg",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "product_name": "Son Lì Mềm Mại Môi THE FACE SHOP Rouge Powder Matte (3.2g)",
+      "price": "549000",
+      "beforeDiscount": "",
+      "brand": "The Face Shop",
+      "from": "Hàn Quốc",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonliTFS.png?alt=media&token=53095782-d219-4259-ac98-016a623097f4",
+      "image1": "../../../public/images/product-detail/sonli/sonliTFS2.png",
+      "description": "Son lì Rouge Powder Matte có thiết kế đơn giản, thời thượng. Vỏ ngoài tệp với màu son, bắt mắt và tiện dụng. Đầu son vát nhọn giúp dễ dàng viền môi và tô đều son ở cả những khóe môi. Chất son matte nhưng vẫn chứa nhiều dưỡng chất giúp son lên môi mềm mượt như nhung, không bị khô, lộ vân môi.",
+      "usage": "Nổi bật với 6 màu sắc tươi tắn thời trang\nLên màu chuẩn tự nhiên\nChất son mịn, mướt môi không gây khô môi\nSon bền màu lưu giữ lâu trên môi.",
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "product_name": "Son Thỏi Dưỡng Ẩm THE FACE SHOP Collagen Ampoule Lipstick 3.5g",
+      "price": "649000",
+      "beforeDiscount": "",
+      "brand": "The Face Shop",
+      "from": "Hàn Quốc",
+      "category_id": 8,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonbongTFS3.webp?alt=media&token=76c70ab2-e609-4fac-a610-96bc2920f569",
+      "image1": "../../../public/images/product-detail/sonduong/sonduongTFS3.jpeg",
+      "description": "Son thỏi COLLAGEN AMPOULE LIPSTICK là sản phẩm son thỏi vừa được ra mắt của THEFACESHOP, với kết cấu son mịn như nhung, vừa có độ bám màu cao lại vừa dưỡng cho đôi môi của bạn không bị khô khi sử dụng, hứa hẹn sẽ làm cho các tín đồ son môi cực kì hài lòng!\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK là dòng son môi đặc biệt có chứa tinh chất Collagen giàu dưỡng chất giúp làn môi luôn căng mọng, quyến rũ tự nhiên trong suốt thời gian sử dụng mà không lo thâm môi.\n\nKhông dừng lại đó, Son thỏi COLLAGEN AMPOULE LIPSTICK với công nghệ độc quyền của hãng khiến kết cấu son trở nên mềm mượt, giúp màu son lên môi chuẩn tự nhiên và bền màu nhiều giờ liền. Ngoài ra, khi thoa son còn có khả năng làm mờ các nếp gấp trên môi, giúp môi trông mịn màng và căng mọng.\n\nVới thiết kế vỏ ngoài ánh kim vô cùng sang trọng, tinh tế chắc chắn sẽ làm ngây ngất các tín đồ của son môi ngay từ cái nhìn đầu tiên.\n\nSon thỏi COLLAGEN AMPOULE LIPSTICK với những màu sắc phong phú, thời thượng cho bạn thoải mái lựa chọn để phù hợp với sở thích của bản thân, giúp đôi môi bạn trở nên tươi tắn, quyến rũ và thu hút sự chú ý của người đối diện, đây chắc chắn là thỏi son không thể thiếu trong bộ sưu tập son môi của bạn!",
+      "usage": "Thành phần\nTinh chất vàng kết hợp với collagen tạo nên những dưỡng chất tối ưu phủ đầy bề mặt môi, giúp làm mờ các nếp và các nếp gấp trên đôi môi, giúp tăng cường khả năng chống lão hóa và làm sáng vùng da môi.",
+      "stock": 6
+    },
+    {
+      "id": 3,
+      "product_name": " Son Thỏi The Face Shop Căng Bóng Tự Nhiên New Bold Sheer Glow Lipstick 3.5g",
+      "price": 649000,
+      "beforeDiscount": "",
+      "brand": "The Face Shop",
+      "from": "Hàn Quốc",
+      "category_id": 5,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonduongTFS3.jpeg?alt=media&token=9f1b89d3-14ea-4296-a029-b82127237fe4",
+      "image1": "../../../public/images/product-detail/sonTFS1.webp",
+      "image2": "../../../public/images/product-detail/sonTFS2.jpeg",
+      "description": "Son thỏi New Bold Sheer Glow Lipstick mang hiệu ứng căng bóng, tự nhiên không làm lộ vân môi, bổ sung ẩm cần thiết giúp đôi môi được trang điểm xinh xắn, nổi bật. Chứa công thức 8 loại dầu giàu dưỡng chất vitamin E tạo nên hàng rào ẩm tự nhiên, bảo vệ làn da môi khỏi tình trạng bong tróc, nứt nẻ. Cộng với các hạt phấn siêu nhỏ, siêu mịn giúp làm đầy rãnh môi mang lại đôi môi căng mọng. ",
+      "usage": "Thoa một lượng son dưỡng để bảo vệ môi. Vặn nắp thoa một lượng son thỏi hiệu ứng căng bóng tự nhiên New Bold Sheer Glow Lipstick vừa đủ lên môi và hiệu chỉnh đậm nhạt phù hợp với phong cách trang điểm của bạn.",
+      "stock": 16
+    },
+    {
+      "id": 4,
+      "product_name": "Son Thỏi Hiệu Ứng Bóng Mướt Rouge Shine Vivid 4.8g",
+      "price": "549000",
+      "beforeDiscount": "",
+      "brand": "The Face Shop",
+      "from": "Hàn Quốc",
+      "category_id": 3,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonliTFS21.webp?alt=media&token=137e48c4-9254-4649-8e15-fa6ddcf17b4a",
+      "image1": "../../../public/images/product-detail/toner-TFS1.avif",
+      "image2": "../../../public/images/product-detail/toner-TFS2.avif",
+      "description": "Rouge Shine Vivid là một trong những lựa chọn tuyệt vời cho những đôi môi hay khô tróc, thiếu ẩm và môi mỏng. Với hiệu ứng bóng cùng khả năng cấp ẩm làm mượt môi, Rouge Shine Vivid mang lại bờ môi bóng mướt, cuốn hút với những sắc màu nổi bật.\nBộ sưu tập son môi Rouge Shine Vivid với 10 sắc thái khác nhau, kết hợp với chất son dạng gel mang lại cảm giác \"tan chảy\" trên bờ môi chỉ sau một lần thoa. Sản phẩm chứa tinh dầu dưỡng ẩm tạo hiệu ứng lâu trôi đồng thời hiệu chỉnh màu sắc son trên môi một cách chuẩn xác hơn.\n\nKết cấu son môi hiệu ứng bóng mướt Rouge Shine Vivid nhẹ, mỏng cho cảm giác êm mịn và dễ dàng lướt nhẹ trên bờ môi, mang lại đôi môi căng bóng, mượt mà ở mọi góc độ.",
+      "usage": "Son môi có màu sắc sống động với 10 sắc thái khác nhau và chứa tinh dầu cấp ẩm giúp mang đến cho bạn một làn môi tỏa sáng và quyến rũ với độ bám cao.\n\nKết cấu son dạng gel mỏng chứa chất dưỡng da dạng serum giúp mang đến độ bóng lâu dài đồng thời cung cấp độ sắc tố cao và bám màu môi với kết cấu dạng gel và bóng.",
+      "stock": 24
+    },
+    {
+      "id": 5,
+      "product_name": "Set Quà Tặng Valentine Sinh MAC A Taste Of Matte Lipstick x 5 Limited Edition - Kèm Ví Ngọc Trai Sang Trọng",
+      "price": "1750000",
+      "brand": "MAC",
+      "from": "Mỹ",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_mac_a_taste_of_matte_lipstick_x_5_limited_edition-min_e68e0e47a7f2415b9fa3d421ba34959a_master.jpg?alt=media&token=f8d09de7-032a-48e3-bfe2-72d7175cd8ed",
+      "image1": "../../../public/images/product-detail/stam-TFS1.webp",
+      "image2": "../../../public/images/product-detail/stam-TFS2.webp",
+      "description": "Set Quà Tặng MAC A Taste Of Matte Lipstick x 5 Limited Edition - Kèm Ví Ngọc Trai Sang Trọng\n\n \n\n- Set Son MAC A Taste Of Matte Lipstick x 5 ra mắt để chào đón mùa giáng sinh 2023 thêm ấm áp và rực rỡ . Set Son Mac gồm năm màu son bán chạy nhất của hãng và được đựng trong một chiếc ví hộp cực sang trọng sẳn sàn cùng nàng diện những outfit điệu đà cho mùa lễ hội đấy nhé.",
+      "usage": "5 Màu Của Set MAC A Taste Of Matte Lên Môi Cực Xinh Xắn :\nNatural Born Leader: Màu Đỏ Mọng (Matte)\nSugar Dada: Cam nâu ấm (Matte)\nDiva: Đỏ Rượu Vang (Matte)\n\nAant Garnet: Đỏ Nâu (Matte)\nRuby Woo: Đỏ Ruby Rực Rỡ ( Retro Matte )",
+      "stock": 5,
+      "beforeDiscount": "1990000"
+    },
+    {
+      "id": 6,
+      "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
+      "price": "999000",
+      "brand": "MAC",
+      "from": "Canada",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
+      "image1": "../../../public/images/product-detail/man-TFS1.webp",
+      "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
+      "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
+      "stock": 8,
+      "beforeDiscount": "1450000"
+    },
+    {
+      "id": 7,
+      "product_name": " SON KEM LÌ NHẸ MÔI LEMONADE SOARING LIPCREAM",
+      "price": 181000,
+      "beforeDiscount": 199000,
+      "brand": "LEMONADE",
+      "from": "Việt Nam",
+      "category_id": 1,
+      "image": "../../../public/images/product-detail/sonL.webp",
+      "image1": "../../../public/images/product-detail/sonL1.webp",
+      "image2": "../../../public/images/product-detail/sonL2.webp",
+      "description": "Son kem lì lên màu tự nhiên, lâu trôi",
+      "usage": "Đang cập nhật",
+      "stock": 20
+    },
+    {
+      "id": 30,
+      "product_name": " Son Mac Chili'S Crew Powder Kiss Velvet Blur Slim 877 Devoted To Chili",
+      "price": "699000",
+      "beforeDiscount": "830000",
+      "brand": "MAC",
+      "from": "Canada",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonMDevote.webp?alt=media&token=140ba51d-6c5c-4ae3-9d00-00f1d9618adc",
+      "image1": "../../../public/images/product-detail/sonL1.webp",
+      "image2": "../../../public/images/product-detail/sonL2.webp",
+      "description": "- Son Mac Chili'S Crew Powder Kiss Velvet Blur Slim 877 Devoted To Chili Limited Edition tone đỏ gạch siêu nổi bật và tôn da và là phiên bản giới hạn dành riêng cho Devoted To Chili HOT nhất dòng.. Son Mac Slim 877 công thức son lì velvet mịn màng như blur đôi môi, chuẩn xu hướng đôi môi mờ ảo trước đó của MAC và khoác lên mình diện mạo hoàn toàn mới. \n- Thỏi son sở hữu vóc dáng vô cùng gọn nhẹ, để nàng dễ dàng mang theo bên mình mọi lúc mọi nơi. Đầu son MAC được làm vát nghiêng như thường lệ, tiết kiệm thời gian khi thao tác tô vẽ hay viền môi. Logo M.A.C sang trọng được khắc chìm bên ngoài để thiết kế này thêm hoàn thiện hơn.",
+      "usage": "- Sắc thái son mới che phủ toàn diện khiến môi vừa đẹp chuẩn nét lại còn được dưỡng ẩm tức thì và bền bỉ theo thời gian. Phiên bản mới chắc chắn vừa trang điểm vừa chăm sóc môi cả ngày dài. Cùng lựa chọn ngay “em gái” Powder Kiss thế hệ mới.",
+      "stock": 20
+    },
+    {
+      "id": 32,
+      "product_name": "Son Kem MAC Locked Kiss Ink 24HR Màu 80 Doyenne",
+      "price": "649000",
+      "beforeDiscount": "850000",
+      "brand": "MAC",
+      "from": "Canada",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonliMm.webp?alt=media&token=c62349ec-af2a-47cb-b543-f80aec41544d",
+      "image1": "../../../public/images/product-detail/dgoiL1.webp",
+      "description": "Nếu bạn đam mê với những màu sắc nóng bỏng trên môi, thì MAC Locked Kiss Ink 24HR Lipcolour 80 Doyenne với công nghệ khóa màu chống lem và độ bền lên đến 24 giờ. Son Kem MAC 80 Doyenne sở hữu sắc màu đỏ thuần nóng bỏng là một sự lựa chọn hoàn hảo cho những ai yêu thích màu đỏ quyến rũ và sang chảnh.\n- Không chỉ đẹp mắt MAC Locked Kiss Ink 24HR Lipcolour 80 Doyenne còn có độ bền vô cùng ấn tượng. Với công nghệ khóa màu, chống lem và chống nước tốt cho màu son chuẩn màu và sắc nét. Điều này đồng nghĩa với việc bạn có thể hoạt động cả ngày mà không cần phải lo lắng về việc trang điểm lại son.",
+      "usage": "- Với các thành phần chất lượng cao MAC Locked Kiss Ink 24HR Lipcolour  cũng chăm sóc cho đôi môi của bạn. Chất son mềm mượt, không nặng môi và không chứa các thành phần độc hại như paraben hay sulfate, đảm bảo an toàn.",
+      "stock": "10"
+    },
+    {
+      "id": 9,
+      "product_name": "Son Mac Lunar Luck Powder Kiss Màu Pure Luck",
+      "price": "649000",
+      "beforeDiscount": "",
+      "brand": "MAC",
+      "from": "Canada",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fsonlimac.webp?alt=media&token=41cbbd1a-98fa-4cd2-a043-742b6a484469",
+      "image1": "../../../public/images/product-detail/dxaL1.webp",
+      "description": "MAC lại ra mắt thêm phiên bản giới hạn trong bộ sưu tập mới toanh mang tên Lunar Luck với những tone màu siêu hot hit trong bộ sưu tập mới. Màu Pure Luck tông màu đỏ mận cực quyến rũ và tôn da màu son có thể kết hợp với mọi phong cách thời trang yêu thích của các nàng.",
+      "usage": "- Cây son Mac Lunar Luck 2022 bản chất là son lì mà hiệu quả chẳng khác nào son dưỡng khi bôi lên môi nhẹ tênh, không bết dính hay làm khô bờ môi của bạn vì trong thỏi son đã có thành phần dưỡng môi siêu mềm cho mang đến bờ môi căng mọng hơn.",
+      "stock": 20
+    },
+    {
+      "id": 10,
+      "product_name": "Son kem Chiffon Signature L'Oreal Paris Chiffon Signature - 129 I Lead",
+      "price": 299000,
+      "beforeDiscount": "",
+      "brand": "L'Oreal",
+      "from": "Việt Nam",
+      "category_id": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson_chiffon.jpg?alt=media&token=fc385885-e815-4ef6-bdce-87f0e7669a50",
+      "image1": "../../../public/images/product-detail/sonL1.webp",
+      "image2": "../../../public/images/product-detail/sonL2.webp",
+      "description": "• Son kem mịn như nhung với hiệu ứng lì cho đôi môi trông quyến rũ hơn. • Lên màu chuẩn. • Chất son kem siêu mỏng nhẹ, mềm mượt tựa như không, • Mịn như nhung và lên màu ngay cả khi lướt nhẹ trên môi trong một lần. • 9 sắc son đầy mê hoặc, thích hợp để sử dụng hàng ngày mang dấu ấn của riêng bạn.",
+      "stock": 18,
+      "usage": "Thoa một lượng vừa đủ lên môi và tán đều."
+    },
+    {
+      "id": 11,
+      "product_name": "Son tint mịn lì cao cấp Rouge Signature 115 I Am Worth It",
+      "price": 249000,
+      "beforeDiscount": "",
+      "brand": "L'Oreal",
+      "from": "Việt Nam",
+      "category_id": 4,
+      "category_item_name": "Trang điểm môi",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson_li_loreal.jpeg?alt=media&token=b3fa451c-88b8-4abd-932c-b596ed7ec149",
+      "image1": "../../../../public/images/product-detail/sontL1.webp",
+      "image2": "../../../../public/images/product-detail/sontL2.webp",
+      "description": "Không bong tróc, không lem, không khô môi. - Công thức 'dầu trong nước' độc đáo - Giữ màu lâu tới 24 giờ. Tạo dấu ấn cho môi của bạn với màu son L'Oréal Paris Rouge Signature Liquid Lip Ink mới. Bộ sưu tập mực môi siêu lì là sự kết hợp giữa màu son đậm nổi bật với lớp son siêu nhẹ, cho bạn cảm giác đôi môi nhẹ bẫng tuyệt đỉnh. Tạm biệt lớp son lâu trôi nặng nề, dày cộm và cảm giác khó chịu thường trực trên môi. Công thức 'dầu trong nước' giúp đôi môi được 'thở', để lại dấu ấn khó quên trên làn môi với cảm giác thoải mái hoàn hảo xuyên suốt ngày dài. Mỗi lần lướt cọ sẽ giúp môi lên màu cực chuẩn ngay lập tức và bền màu với lớp hoàn thiện mềm mại, mịn lì. Với sắc thái màu theo xu hướng từ nâu đất đến đỏ mận và đỏ cam - mọi phụ nữ đều có thể tạo nên dấu ấn phong cách với màu son của riêng mình. Với Rouge Signature, đơn giản là nhất. Kết cấu nhẹ hơn, nhiều màu sắc hơn. Ít dư thừa hơn, tác động nhiều hơn.",
+      "stock": 20,
+      "usage": "Dùng hằng ngày 2- 3 lần hoặc có thể dùng trước khi son môi."
+    },
+    {
+      "id": 21,
+      "product_name": "Son MAC 991 Devoted To Chili – Powder Kiss Liquid – Đỏ Đất",
+      "price": 650000,
+      "beforeDiscount": "",
+      "brand": "MAC",
+      "from": "Mỹ",
+      "category_id": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fsommacde.webp?alt=media&token=f9239cad-c505-4f08-9cb8-c3c4de7ab8c6",
+      "image1": "../../../public/images/product-detail/sonM1.webp",
+      "description": "Liên tục Sold-out và nằm top Best-seller của hãng, Son MAC 991 Devoted To Chili đã được tái sinh. Tone đỏ đất dòng son mới Powder Kiss Liquid LipColour từ nhà MAC hứa hẹn lại gây bão trong lòng cacsb tín đồ làm đẹp.",
+      "usage": "Thoa một lượng vừa đủ lên môi và tán đều.",
+      "stock": 20
+    },
+    {
+      "id": 22,
+      "product_name": "Son MAC Ruby Woo Đỏ Cổ Điển",
+      "price": 480000,
+      "brand": "MAC",
+      "from": "Mỹ",
+      "category_id": 2,
+      "image": "../../../public/images/product-detail/sonM.jpeg",
+      "image1": "../../../public/images/product-detail/sonlM1.webp",
+      "description": "Son MAC Ruby Woo thuộc dòng Retro Matter của thương hiệu Son MAC đình đám đã khiến chị em phụ nữ bị “mê hoặc”  ngay từ lúc mới xuất hiện trên thị trường. Son MAC Ruby Woo được mệnh danh là” biểu tượng của sự quyến rũ” với sắc đỏ cổ điển sang trọng quý phái.  Phù hợp với nhiều lứa tuổi và nhiều màu da, giúp một nửa thế giới tự tin toả sáng ở bất cứ nơi nào.",
+      "usage": "Thoa một lượng vừa đủ lên môi và tán đều.",
+      "stock": 20,
+      "beforeDiscount": "599000"
+    },
+    {
+      "id": 24,
+      "product_name": "Bảng Màu Son Mac Blur Slim Powder Kiss Velvet ",
+      "price": "589000",
+      "beforeDiscount": "830000",
+      "brand": "MAC",
+      "from": "Mỹ",
+      "category_id": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonbangM.webp?alt=media&token=6c162f50-17b7-46f9-b791-ffa6e74e4069",
+      "image1": "../../../public/images/product-detail/sonlM1.webp",
+      "description": "Mac Blur Slim Powder Kiss Velvet một siêu phẩm mới được ra mắt chắc chắn sẽ đốn tim chị em từ cái chạm mặt đầu tiên. Trình làng bảng màu MAC Powder Kiss Velvet Blur Slim Stick cực Hot, với các tông màu dễ sử dụng hằng ngày, phù hợp nhất với làn da Châu Á. Được cải tiến với chất son lì nhưng vô cùng ẩm mượt, đặc biệt khả năng lên màu chuẩn căng đét chỉ với 1 lần lướt trên môi. Màu sắc lên môi đậm nét, chuẩn sắc và đặc biệt finish vô cùng ẩm mượt tạo hiệu ứng môi căng mọng cả ngày dài  – giữ màu tới 12h ẩm mịn lâu trôi. “Bé lì ” giúp chị em tha hồ làm chủ cuộc vui mà không lo lớp son biến mất.",
+      "usage": "Thoa một lượng vừa đủ lên môi và tán đều.",
+      "stock": 20
+    },
+    {
+      "id": 25,
+      "product_name": "Son Dưỡng Môi DHC Không Màu Hỗ Trợ Giảm Thâm Môi 1.5g",
+      "price": "165000",
+      "beforeDiscount": "",
+      "brand": "DHC",
+      "from": "Nhật Bản",
+      "category_id": 8,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson-duong-moi-dhc-lip-cream-1-5g-1.jpg?alt=media&token=d7ef6782-7dce-4cdb-a9b7-d01c82fd086e",
+      "image1": "../../../public/images/product-detail/sonlM1.webp",
+      "description": "Son Dưỡng DHC Lip Cream là một trong những dòng sản phẩm bán chạy nhất của thương hiệu DHC Nhật Bản. Công thức son chứa chiết xuất từ Olive đậm đặc sẽ giúp dưỡng ẩm và khoá ẩm cho đôi môi lên đến 8 giờ, cải thiện hiệu quả tình trạng da môi khô nứt nẻ, đồng thời giảm thâm và làm hồng môi.\n\n",
+      "usage": "Hướng dẫn sử dụng\nThoa nhẹ nhàng son dưỡng DHC lên môi để dưỡng ẩm và làm mềm môi.\n\nBạn cũng có thể dùng son dưỡng môi DHC như một lớp son nền trước khi tô son màu, vừa giúp son lên màu đẹp lại vừa dưỡng ẩm và bảo vệ đôi môi không bị bong tróc hay thâm sạm.\n\nLưu ý:\n\nNên tẩy tế bào chết và lau sạch lớp son cũ trên môi trước khi thoa son dưỡng môi DHC để giúp môi mềm, thẩm thấu dưỡng chất tốt hơn.\n\nKhông để son dưỡng môi DHC trực tiếp dưới ánh nắng mặt trời hoặc ở nơi có nhiệt độ cao (đặc biệt là cốp xe) để tránh làm son bị chảy, hỏng.",
+      "stock": 16
+    },
+    {
+      "id": 26,
+      "product_name": "Son dưỡng có màu DHC Color Lip Cream 1,5g",
+      "price": "129000",
+      "beforeDiscount": "200000",
+      "brand": "DHC",
+      "from": "Nhật Bản",
+      "category_id": 8,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2F1651713437-son-duong-dhc-do.jpg?alt=media&token=d90c0b9d-3622-448b-829d-241633c358dd",
+      "image1": "../../../public/images/product-detail/sonlM1.webp",
+      "description": "Đặc điểm nổi bật của DHC Color Lip Cream\nSon DHC Color Lip Cream đến từ thương hiệu DHC nổi tiếng Nhật Bản, rất được ưa chuộng bởi có chiết xuất an toàn, khả năng dưỡng môi hiệu quả. Son có thiết kế đơn giản, nhỏ gọn, tiện lợi để bỏ túi đem đi theo hằng ngày.\n\nThành phần chính gồm chiết xuất nhau thai cừu, dầu olive và squalene đều được biết đến với tác dụng dưỡng ẩm hiệu quả.\nKết cấu son siêu mềm mịn nhờ sự kết hợp hoàn hảo giữa Jojoba cùng dầu Olive, dễ dàng thẩm thấu vào môi mà không bị vón cục tại các rãnh môi.\nKhông gây bết dính, bóng nhờn hay cảm giác quá ướt nên sẽ rất ít dính ra khẩu trang khi trang điểm.\nMang đến 4 chức năng trong một thỏi son gồm dưỡng ẩm sâu, tạo màu tự nhiên, chống nắng và dưỡng hồng sắc tố môi.\nCó đến 3 màu hồng, cam, đỏ để chị em thoải mái lựa chọn.\nSon lên màu siêu tự nhiên, có thể dùng thay thế son hằng ngày để dưỡng môi về sắc tố môi tự nhiên ban đầu.\nSử dụng các thành phần tự nhiên, không mùi nên rất lành tính.",
+      "usage": "Cách sử dụng DHC Color Lip Cream\nDùng hằng ngày 2- 3 lần hoặc có thể dùng trước khi son môi.\n\nMột số lưu ý khác\n\nBảo quản sản phẩm nơi thoáng mát.\nĐậy nắp sau khi sử dụng. ",
+      "stock": 20
+    },
+    {
+      "category_id": 8,
+      "product_name": "Son Dưỡng Có Màu Espoir 01 Shell Pink - Hồng 4.5g",
+      "stock": "20",
+      "price": "273000",
+      "beforeDiscount": "",
+      "description": "Son Dưỡng Có Màu Espoir Nowear Glow Lip Balm 4.5g là son dưỡng môi của thương hiệu Espoir. Son dưỡng dạng thỏi Espoir Nowear Glow Lip Balm 4.5g đem lại đôi môi mềm mịn hồng hào vừa có những gam màu nhè nhẹ xinh xinh luôn mang đến một đôi môi căng mọng và tràn đầy sức sống. Đồng thời, son dưỡng có có khả năng chống nắng nhẹ nhờ màng lọc chống nắng Titanium Dioxide giúp ngăn chặn và bảo vệ môi khỏi tia UV và các tác nhân xấu của môi trường.\n\nHiện sản phẩm Son Dưỡng Có Màu Espoir Nowear Glow Lip Balm có mặt tại Hasaki với 3 tone màu:\n\nEspoir Nowear Glow Lip Balm 01 Shell Pink - Hồng 4.5g\n\nEspoir Nowear Glow Lip Balm 02 Coral Dew - Cam 4.5g\n\nEspoir Nowear Glow Lip Balm 03 Cranberry - Đỏ Cam 4.5g",
+      "brand": "Espoir ",
+      "from": "Hàn Quốc",
+      "usage": "Hướng dẫn sử dụng\nThoa đều son dưỡng Espoir lên môi mỗi ngày cho sắc môi thêm tươi tắn.\n\nCó thể thoa lại mỗi khi cảm thấy khô môi.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fespoir.jpeg?alt=media&token=ebb7cb82-ef6b-4b35-8b45-48f268499c96",
+      "id": 33
+    },
+    {
+      "product_name": "Son môi nước MuseColor Red label Lip Tint",
+      "description": "Son môi nước MuseColor Red label Lip Tint là một sản phẩm đến từ thương hiệu MuseColor nổi tiếng đến từ Hàn Quốc, được rất nhiều chị em tin dùng hiện nay. Mỗi thỏi son có dung lượng khá nhiều (4.3g), đủ để chị em dùng trong khoảng thời gian dài, giúp tiết kiệm được chi phí. Thiết kế gọn gàng, vừa tay, mang đến sự thoải mái, tiện lợi cho các chị em có thể tô được một làn môi xinh tươi bất kỳ nơi nào.\n\nNhờ vào công nghệ Hybrid Gelling System tiên tiến thì chị em có thể sử dụng đều khắp môi mà không lo bị thoa sót. Son có độ ẩm mượt mà, bóng vừa phải, đảm bảo tạo nên đôi môi căng mọng, quyến rũ. Từng lớp son tint Muse Color khi thoa sẽ tan chảy, bám khá chặt và đều trên môi. Chị em có thể thoải mái ăn uống, hay rửa nhẹ với nước mà không lo bị trôi màu son.",
+      "from": "Hàn Quốc",
+      "brand": "MuseColor",
+      "usage": "Không chỉ làm đẹp bờ môi mà còn mang đến nhiều màu sắc với phong cách riêng biệt thì chắc chắn son môi nước MuseColor Red label Lip Tint không thể nào rời khỏi được vị trí trong top son môi nước “đỉnh nhất” mà các chị em yêu thích.\n\n",
+      "category_id": 4,
+      "price": "359000",
+      "beforeDiscount": "",
+      "stock": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fsonnc.jpeg?alt=media&token=9fa3d189-864a-4b36-a6f3-cf51a888c77b",
+      "id": 34
+    },
+    {
+      "product_name": "Son môi nước 3CE Velvet Lip Tint",
+      "description": "Từng “làm mưa làm gió” khắp Châu Á với những dòng son độc đáo như Lily Maymac, Mood Recipe, Red Recipe nhưng rồi sau đó lại không để lại ấn tượng mạnh mẽ với các dòng sản phẩm khác. Thế nhưng son nước 3CE Velvet Lip Tint ra đời trong sự bất ngờ bằng một dòng tin trên Facebook của hãng. Ngay lập tức, cái tên này đã tạo nên một cơn sốt, khiến chị em phải săn lùng để sở hữu bằng được.\nKhoác lên mình một “bộ áo” đơn giản nhưng lại toát lên được vẻ sang trọng, quý phái. Thân son dài nhưng nhỏ gọn, tiện lợi, cầm vô cùng chắc tay, giúp các chị em có thể mang theo khắp mọi nơi để sử dụng. Son được đựng trong hộp giấy với màu sắc được mô phỏng hệt như màu bên trong, thuận lợi cho chị em lựa chọn một cách nhanh chóng. Ngoài ra, thông tin đầy đủ về thương hiệu, website, xuất xứ được in trên vỏ có thể giúp phái đẹp tra cứu son chính hãng, tránh mua phải hàng “nhái”.",
+      "brand": "3CE",
+      "from": "Hàn Quốc",
+      "category_id": 4,
+      "usage": "Son khi thoa đảm bảo lên màu cực chuẩn, cực mịn, giúp chị em có được đôi môi đẹp rực rỡ và mềm mịn. Chất son lì của loại son nước này bám lâu, giảm được hạn chế trong việc ăn uống hay tiếp xúc với nước. Ngoài ra, hương thơm dịu nhẹ từ son mang lại cảm giác dễ chịu, thoải mái cho người dùng. Điểm hạn chế duy nhất là son nước 3CE Velvet Lip Tint không hỗ trợ cọ dày nên tốn khá nhiều thời gian nếu như muốn son toàn bộ môi.",
+      "stock": "20",
+      "price": "299000",
+      "beforeDiscount": "",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2F3ce.jpeg?alt=media&token=02a5b54c-bea9-4303-9c91-85f44ae29cd4",
+      "id": 35
+    },
+    {
+      "product_name": "Son môi nước dạng kem Innisfree Vivid Creamy Tint",
+      "brand": "Innisfree",
+      "from": "Hàn Quốc",
+      "category_id": 8,
+      "stock": "20",
+      "price": "329000",
+      "beforeDiscount": "",
+      "description": "Innisfree Vivid Creamy Tint từng đoạt giải BEST ITEM – Giải thưởng Beauty Award, là 1 trong những dòng son đặc trưng và đem lại thành công cho Innisfree và luôn dẫn đầu trong danh thu của hãng. Loại son này có tổng cộng 12 màu, lấy cảm hứng từ bốn mùa trong năm: xuân, hạ, thu, đông nên mỗi nhóm màu sẽ đại diện cho mỗi xu hướng trang điểm theo mùa khác nhau.\nLoại son này còn được mệnh danh là có nhiều thành phần thiên nhiên có độ dưỡng ẩm cao với phần kem được chiết xuất từ hoa Camellia & dầu olive & hoa Lavender giúp giữ ẩm cho môi cùng hoa Cúc La Mã bảo vệ làn môi khỏe, chống oxy hóa . Kết cấu son mỏng nhẹ, đem đến độ ẩm mượt, mang đến độ tươi cho môi mà không hề bị khô hay thâm môi.\n\n",
+      "usage": "Thiết kế vỏ ngoài gọn nhẹ, tiện lợi với màu sắc giản đơn nhưng tinh tế, giúp các chị em có thể dễ dàng mang theo bên mình để dùng ở bất kỳ đâu, đồng thời còn thể hiện được sự trẻ trung, cá tính của mình. Đầu cọ được thiết kế dày, có hình lá và có độ nghiêng giúp tăng khả năng tiếp xúc giữa son và môi, để có thể lấy và tán được nhiều, đều màu son lên môi hơn. Đầu cọ thông minh giúp hạn chế lem màu môi.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fsonncinis.jpeg?alt=media&token=ed3185ca-f36e-46ec-b6df-ea496cdc3279",
+      "id": 36
+    },
+    {
+      "product_name": "Son YSL Rouge Volupte Rock’N Shine 05 Rocking Coral – Hồng Cam",
+      "category_id": 5,
+      "stock": "20",
+      "price": "730000",
+      "beforeDiscount": "980000",
+      "brand": "YSL",
+      "description": "YSL Rouge Volupte Rock’N Shine 05 Rocking Coral sở hữu tone hồng cam nóng bỏng cùng chất son lì giàu dưỡng sẽ khiến nàng mê mệt, không chỉ vậy thiết kế vỏ bạc lấp lánh chắc chắn sẽ khiến nàng không thể làm ngơ.",
+      "usage": "Thiết kế vỏ bạc lấp lánh\nYSL Rouge Volupte Rock’N Shine 05 Rocking Coral sở hữu một lớp áo “lấp lánh” theo đúng nghĩa. Màu xám bạc kết hợp cùng những hạt li ti lấp lánh khiến nàng cảm giác như đang cầm trên tay một món quà từ truyện cổ tích vậy.\n\nLogo YSL được đặt tinh tế tại giữa thỏi son như một điểm nhấn nổi bật. Thiết kế tròn gọn giúp thuận tiện mang theo.\n\nVát cắt nhẹ ở đầu thỏi son giúp nàng dễ dàng trang điểm và trôi nhẹ trên môi. Dáng son nhỏ gọn giúp nàng không phải quá lo lắng vì sợ sẽ bị lem nhem ra bên ngoài.\n\nChất son lì giàu dưỡng\nThuộc dòng son lì giàu dưỡng nhà YSL, YSL Rouge Volupte Rock’N Shine 05 Rocking Coral sẽ không làm bạn thất vọng về độ dưỡng ẩm của em ý.",
+      "from": "Pháp",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonYSL.png?alt=media&token=dd9a0266-760f-45e5-95dc-b9b4ee9e75ec",
+      "id": 37
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "adm@gmail.com",
+      "password": "123a@",
+      "fullname": "min",
+      "phoneNumber": "",
+      "dateOfBirth": "11-12-2000",
+      "address": "Thanh Xuân, Hà Nội",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": true
+    },
+    {
+      "id": 4,
+      "email": "ad@gmail.com",
+      "password": "$2a$10$5RUNAJ6c/kEKREWvRd9v4.DAJMJcTACxxCd4u5sHvozgahBwoJux2",
+      "fullname": "Ad",
+      "phoneNumber": "",
+      "dateOfBirth": "11-12-2000",
+      "address": "Thanh Xuân, Hà Nội",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": true
+    },
+    {
+      "id": 2,
+      "email": "nguyenvanb@gmail.com",
+      "password": "$2a$10$Unu/Iw6j9JhBvUBrW4qBh.KaQtf6xAfYhNeHeXOQ0YMuSl/Hnlp9.",
+      "fullname": "Nguyễn Văn B",
+      "phoneNumber": "",
+      "dateOfBirth": "11-12-2005",
+      "address": "Thanh Xuân, Hà Nội",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": false
+    },
+    {
+      "id": 3,
+      "email": "nguyenvana@gmail.com",
+      "password": "$2a$10$D0equFseHv1tfb4JB5nqzOXg1QnPXqxVSW8qSXdB/pNHW6C44/hxK",
+      "fullname": "Nguyễn Văn A",
+      "phoneNumber": "",
+      "dateOfBirth": "11-12-2005",
+      "address": "Thanh Xuân, Hà Nội",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": true
+    },
+    {
+      "id": 5,
+      "email": "nguyenvanc@gmail.com",
+      "password": "$2a$10$.ggw7VnpM7nPTuclaxAgNe2MFfNl0u2UUt/w62y0MrAQjgta6AvC.",
+      "fullname": "abc",
+      "phoneNumber": "",
+      "dateOfBirth": "",
+      "address": "",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": true
+    },
+    {
+      "email": "nguyenvane@gmail.com",
+      "password": "$2a$10$vrChkj.HSFVxM/Gw9p50RetYWIfq/MK1DtaDoRjhA5q4kznHZySKe",
+      "fullname": "abc",
+      "phoneNumber": "",
+      "dateOfBirth": "",
+      "address": "",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "id": 6,
+      "active": false
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$5gsXlWFwDPSDrqP0YvmE0ONDtwFoRL6kpdFiZz0yeHm1KTmJQd0Fy",
+      "fullname": "Admin",
+      "phoneNumber": "",
+      "dateOfBirth": "",
+      "address": "",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 0,
+      "id": 7,
+      "active": true
+    },
+    {
+      "email": "anan@gmail.com",
+      "password": "$2a$10$SuRd/BC8H0C7QExod.4xCu/ioi6D9HChQXXSEq80JW0sBBHtQiqES",
+      "fullname": "An",
+      "phoneNumber": "",
+      "dateOfBirth": "",
+      "address": "",
+      "image": "../../../public/images/avatar.jpeg",
+      "role": 1,
+      "active": true,
+      "id": 8
+    },
+    {
+      "email": "ac@gmail.com",
+      "password": "$2a$10$wp61EXzN4rhBF5bY2hjy4uHizbkLCpnm6yn6P2w8vSBPzh.aNPt8q",
+      "fullname": "ac",
+      "phoneNumber": "0665435656",
+      "address": "Hà Nội",
+      "image": "../../../public/images/avatar.jpeg",
+      "dateOfBirth": "11/11/2000",
+      "role": 1,
+      "active": true,
+      "id": 9
+    }
+  ]
+}

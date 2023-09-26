@@ -139,14 +139,19 @@ export default function HeaderCopy({ cartLength }) {
                                         </NavLink>
                                     </div>
                                     <div className="navbar-nav ml-auto py-0 d-flex align-items-center">
+                                        <NavLink to={"/cart"} className=" px-3 nav-item nav-link ">
+                                            <Badge size="small" count={cartLength} offset={[7, 1]} height="60%">
+                                                <i className="fas fa-shopping-cart text-black nav-item-icon fs-5 " />
+                                            </Badge>
+                                        </NavLink>
                                         {(userLogin !== null && userLogin.active === true && userLogin.role === 1) ? (
                                             <><div className="nav-item dropdown  " >
                                                 <span
-                                                    className="nav-link dropdown-toggle account-dropdown"
+                                                    className="nav-link dropdown-toggle account-dropdown d-flex align-items-center gap-1"
                                                     data-toggle="dropdown"
                                                     data-bs-display="static" aria-expanded="false"
                                                 >
-                                                    <img src={userLogin.image} width={30} height={30} className='rounded-circle' /> {userLogin.fullname}
+                                                    <img src={userLogin.image} width={36} height={36} className='rounded-circle' /> <span className='text-uppercase fw-semibold fs-6'>{userLogin.fullname}</span>
                                                 </span>
                                                 <div className="dropdown-menu rounded m-0  custom-dropdown-menu dropdown-menu-right">
                                                     <NavLink to={"/profile"} className="dropdown-item ">
@@ -155,20 +160,16 @@ export default function HeaderCopy({ cartLength }) {
                                                     <NavLink to={"/order-history"} className="dropdown-item">
                                                         <i className="fa-solid fa-money-bills me-2"></i>  Lịch sử mua hàng
                                                     </NavLink>
-                                                    <span className="dropdown-item" onClick={showModalLogout}>
+                                                    <Link className="dropdown-item" onClick={showModalLogout}>
                                                         <i className="fa-solid fa-right-from-bracket me-2" ></i>  Đăng xuất
-                                                    </span>
+                                                    </Link>
                                                 </div>
                                             </div></>
                                         ) : (<NavLink to={"/login"} className="nav-item nav-link">
                                             <i className="fa-solid fa-user-plus"></i>  Đăng nhập
                                         </NavLink>)}
 
-                                        <NavLink to={"/cart"} className=" px-3 nav-item nav-link ">
-                                            <Badge size="small" count={cartLength} offset={[7, 1]} height="60%">
-                                                <i className="fas fa-shopping-cart text-black nav-item-icon" style={{ fontSize: "18px", color: "black" }} />
-                                            </Badge>
-                                        </NavLink>
+
                                     </div>
                                 </div>
                             </nav>

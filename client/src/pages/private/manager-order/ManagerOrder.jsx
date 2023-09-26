@@ -17,13 +17,15 @@ export default function ManagerOrder() {
     const handleStatusCodeOrder = (statusCode) => {
         switch (statusCode) {
             case 1:
-                return `  Đang chờ xác nhận `
+                return (<><span className='text-secondary'>Đang chờ xác nhận </span></>)
             case 2:
-                return ` Đã xác nhận`
+                return (<><span className='text-primary'>Đã xác nhận </span></>)
             case 3:
-                return ` Đã huỷ`
+                return (<><span className='text-danger'>Đã huỷ </span></>)
         }
     }
+
+
 
     //lay tat ca order tren DB ve - ket hop tim kiem+loc
     const getOrder = async () => {
@@ -103,6 +105,18 @@ export default function ManagerOrder() {
                 status: 2
             });
             setOrderDetail({ ...orderDetail, status: 2 });
+            getOrder();
+        }
+        catch (err) {
+            console.log(err);
+        }
+    }
+
+    //ham xoa don hang da huy================================
+    const handleDeleteOrder = async (id) => {
+        try {
+            await instance.delete(`orders/${id}`);
+            // setOrderDetail({});
             getOrder();
         }
         catch (err) {
@@ -302,7 +316,24 @@ export default function ManagerOrder() {
                                         <td>{o.totalPrice && (formatMoney(o.totalPrice))}</td>
                                         <td>{handleStatusCodeOrder(o.status)}</td>
                                         <td><button className='p-2 rounded ' onClick={() => handleShowModal(o.id)}><i className="fa-solid fa-circle-info"></i>  Xem chi tiết</button></td>
-                                        <td>{o.status === 1 ? (<><button onClick={() => handleAccept(o.id)} className='p-2 rounded bg-primary text-white btn-action'> Xác nhận đơn hàng</button> <button onClick={() => handleCancelOrder(o.id)} className='p-2 rounded bg-danger text-white btn-action'>  Huỷ đơn hàng</button></>) : (<></>)}</td>
+                                        {/* <td>{o.status === 1 ? (<><button onClick={() => handleAccept(o.id)} className='p-2 rounded bg-primary text-white btn-action'> Xác nhận đơn hàng</button> <button onClick={() => handleCancelOrder(o.id)} className='p-2 rounded bg-danger text-white btn-action'>  Huỷ đơn hàng</button></>) : (<></>)}</td> */}
+                                        <td>
+                                            {o.status === 1 ? (
+                                                <>
+                                                    <button onClick={() => handleAccept(o.id)} className='p-2 rounded bg-primary text-white btn-action me-2'> Xác nhận đơn hàng</button>
+                                                    <button onClick={() => handleCancelOrder(o.id)} className='p-2 rounded bg-danger text-white btn-action'> Huỷ đơn hàng</button>
+                                                </>
+                                            ) : (
+                                                o.status === 3 ? (
+                                                    <>
+                                                        <button onClick={() => handleDeleteOrder(o.id)} className='p-2 rounded bg-warning text-white btn-action'> Xoá đơn hàng</button>
+                                                    </>
+                                                ) : (
+                                                    <></>
+                                                )
+                                            )}
+                                        </td>
+
                                     </tr>
                                 ))
                                 ) :

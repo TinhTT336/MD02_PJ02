@@ -114,178 +114,6 @@
     {
       "cart": [
         {
-          "productId": 6,
-          "quantity": 1,
-          "datas": {
-            "id": 6,
-            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
-            "price": "999000",
-            "brand": "MAC",
-            "from": "Canada",
-            "category_id": 2,
-            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
-            "image1": "../../../public/images/product-detail/man-TFS1.webp",
-            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
-            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
-            "stock": "10",
-            "beforeDiscount": "1450000"
-          }
-        }
-      ],
-      "userOrder": {
-        "fullname": "An",
-        "email": "tinhtt336@gmail.com",
-        "phoneNumber": "0765433434",
-        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
-        "note": ""
-      },
-      "userLogin": {
-        "email": "tinhtt336@gmail.com",
-        "fullname": "Tinh Tran",
-        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
-        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-        "role": 1,
-        "active": true,
-        "phoneNumber": null
-      },
-      "order_at": "26/09/2023, 02:02:17",
-      "status": 1,
-      "totalPrice": 999000,
-      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-      "id": 3
-    },
-    {
-      "cart": [
-        {
-          "productId": 6,
-          "quantity": 2,
-          "datas": {
-            "id": 6,
-            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
-            "price": "999000",
-            "brand": "MAC",
-            "from": "Canada",
-            "category_id": 2,
-            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
-            "image1": "../../../public/images/product-detail/man-TFS1.webp",
-            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
-            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
-            "stock": "10",
-            "beforeDiscount": "1450000"
-          }
-        }
-      ],
-      "userOrder": {
-        "fullname": "An",
-        "email": "tinhtt336@gmail.com",
-        "phoneNumber": "0665435656",
-        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
-        "note": ""
-      },
-      "userLogin": {
-        "email": "tinhtt336@gmail.com",
-        "fullname": "Tinh Tran",
-        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
-        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-        "role": 1,
-        "active": true,
-        "phoneNumber": null
-      },
-      "order_at": "26/09/2023, 02:22:05",
-      "status": 3,
-      "totalPrice": 1998000,
-      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-      "id": 4
-    },
-    {
-      "cart": [
-        {
-          "productId": 6,
-          "quantity": 1,
-          "datas": {
-            "id": 6,
-            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
-            "price": "999000",
-            "brand": "MAC",
-            "from": "Canada",
-            "category_id": 2,
-            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
-            "image1": "../../../public/images/product-detail/man-TFS1.webp",
-            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
-            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
-            "stock": "10",
-            "beforeDiscount": "1450000"
-          }
-        }
-      ],
-      "userOrder": {
-        "fullname": "An",
-        "email": "tinhtt336@gmail.com",
-        "phoneNumber": "0765433434",
-        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
-        "note": ""
-      },
-      "userLogin": {
-        "email": "tinhtt336@gmail.com",
-        "fullname": "Tinh Tran",
-        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
-        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-        "role": 1,
-        "active": true,
-        "phoneNumber": null
-      },
-      "order_at": "26/09/2023, 02:26:52",
-      "status": 1,
-      "totalPrice": 999000,
-      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-      "id": 5
-    },
-    {
-      "cart": [
-        {
-          "productId": 6,
-          "quantity": 1,
-          "datas": {
-            "id": 6,
-            "product_name": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )",
-            "price": "999000",
-            "brand": "MAC",
-            "from": "Canada",
-            "category_id": 2,
-            "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fset_son_mac_3_cay-min_37c86e3fef5d4cf1905364e02a170316.jpg?alt=media&token=c60a7013-d239-477c-924c-14a2bfc3e064",
-            "image1": "../../../public/images/product-detail/man-TFS1.webp",
-            "description": "Set Son MAC 3 Cây Three Cheers Lipstick Trio ( Best-Sellers )\n\n \n\n- Set Son MAC 3 Cây Three Cheers Lipstick Trio Best-Sellers mới nhất hội tụ 3 tông màu bán chạy nhất của MAC. Set Son MAC  như một món quà gửi đến tính đồ của MAC bởi sự góp mặt của nhưng tone màu đẹp nhất dòng đấy nhé.\n- Set Mac Three Cheers Lipstick Trio là nhưng tone màu đẹp nhất dòng MAC cùng với chất son Retro siêu lì và matte nhưng siêu mềm mại, không hề gợn bột hay vón cục trên môi chút nào. Màu son lên chuẩn ngay lần lướt đầu tiên, và độ “ăn nằm” trên môi lì đến “ngưỡng mộ”.",
-            "usage": "Set Mac Three Cheers Lipstick Trio Gồm 3 Màu : \n\n1.MAC Retro Matte Lipstick Ruby Woo Limited\n\n2.MAC Matte Lipstick Mehr Limited\n\n3.MAC Matte Lipstick Whirl Limited",
-            "stock": 9,
-            "beforeDiscount": "1450000"
-          }
-        }
-      ],
-      "userOrder": {
-        "fullname": "An",
-        "email": "tinhtt336@gmail.com",
-        "phoneNumber": "0765433434",
-        "address": "54 ngõ 6 Lê Quang Đạo, Mỹ Đình, Hà Nội",
-        "note": ""
-      },
-      "userLogin": {
-        "email": "tinhtt336@gmail.com",
-        "fullname": "Tinh Tran",
-        "image": "https://lh3.googleusercontent.com/a/ACg8ocJF4XeNAAP8f9BnmT9AJzVASfY0JNu-L_7F344A-Iw5Vbc=s96-c",
-        "id": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-        "role": 1,
-        "active": true,
-        "phoneNumber": null
-      },
-      "order_at": "26/09/2023, 02:40:47",
-      "status": 1,
-      "totalPrice": 999000,
-      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-      "id": 6
-    },
-    {
-      "cart": [
-        {
           "productId": 1,
           "quantity": 1,
           "datas": {
@@ -379,18 +207,13 @@
         "id": 9
       },
       "order_at": "26/09/2023, 10:15:32",
-      "status": 2,
+      "status": 1,
       "totalPrice": 4343000,
       "userId": 9,
       "id": 7
     }
   ],
   "carts": [
-    {
-      "userId": "CT1u7P30IHdDqREYUXxEIgfDi5w2",
-      "cartDetails": [],
-      "id": 1
-    },
     {
       "userId": 9,
       "cartDetails": [],
@@ -740,6 +563,105 @@
       "from": "Pháp",
       "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2FsonYSL.png?alt=media&token=dd9a0266-760f-45e5-95dc-b9b4ee9e75ec",
       "id": 37
+    },
+    {
+      "product_name": "Son Bóng 3CE Cho Bờ Môi Căng Mọng Quyến Rũ 3CE Glow Lip Color 3g",
+      "stock": "20",
+      "price": "419000",
+      "beforeDiscount": "439000",
+      "brand": " 3CE",
+      "from": " Hàn Quốc",
+      "category_id": 5,
+      "description": "◈Thông tin chi tiết sản phẩm◈\nTrọng lượng tịnh: 3 g\nCách sử dụng: lấy một lượng nhỏ và thoa nhẹ nhàng lên môi.\nHạn sử dụng: 36 tháng kể từ ngày sản xuất, 18 tháng sau khi mở ra\nXuất xứ: Hàn Quốc\nNhà phân phối và sản xuất: Nanda Inc. / Shinsegae Intercos Korea Inc.\nQua kiểm định mỹ phẩm của Bộ An toàn Thực phẩm và Dược phẩm: Không áp dụng\nLưu ý khi sử dụng: \n1) Nếu bạn gặp các triệu chứng: đốm đỏ, sưng tấy, ngứa ngáy hoặc bất kỳ tác dụng phụ nào khác trong lúc dùng hoặc sau khi sử dụng, vui lòng ngừng sử dụng và tham khảo ý kiến từ bác sĩ\n2) Không sử dụng sản phẩm trên vết thương hoặc bất kỳ vùng da bị dị ứng. \n3) Lưu ý khi bảo quản và sử dụng. a) Để xa tầm tay trẻ em. b) Tránh ánh nắng mặt trời trực tiếp.",
+      "usage": "Đang cập nhật",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson_nhu_3ce.jpeg?alt=media&token=46f7af35-3274-445f-a3b5-e04efe844c1e",
+      "id": 38
+    },
+    {
+      "product_name": "Son Bóng 3CE Cho Bờ Môi Căng Mọng Quyến Rũ 3CE Glow Lip Color 3g",
+      "stock": "20",
+      "price": "419000",
+      "beforeDiscount": "449000",
+      "brand": "3CE",
+      "from": "Hàn Quốc",
+      "category_id": 3,
+      "description": "◈Thông tin chi tiết sản phẩm◈\nTrọng lượng tịnh: 3 g\nCách sử dụng: lấy một lượng nhỏ và thoa nhẹ nhàng lên môi.\nHạn sử dụng: 36 tháng kể từ ngày sản xuất, 18 tháng sau khi mở ra\nXuất xứ: Hàn Quốc\nNhà phân phối và sản xuất: Nanda Inc. / Shinsegae Intercos Korea Inc.\nQua kiểm định mỹ phẩm của Bộ An toàn Thực phẩm và Dược phẩm: Không áp dụng\nLưu ý khi sử dụng: \n1) Nếu bạn gặp các triệu chứng: đốm đỏ, sưng tấy, ngứa ngáy hoặc bất kỳ tác dụng phụ nào khác trong lúc dùng hoặc sau khi sử dụng, vui lòng ngừng sử dụng và tham khảo ý kiến từ bác sĩ\n2) Không sử dụng sản phẩm trên vết thương hoặc bất kỳ vùng da bị dị ứng. \n3) Lưu ý khi bảo quản và sử dụng. a) Để xa tầm tay trẻ em. b) Tránh ánh nắng mặt trời trực tiếp.",
+      "usage": "Đang cập nhật",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson-3ce.jpg?alt=media&token=1705fc07-c558-4e16-9937-66d06d9bbb10",
+      "id": 39
+    },
+    {
+      "product_name": "Lancome Starlight Sparkle Starlight Sparkle",
+      "description": "Son Lancôme Starlight Sparkle Starlight Sparkle cấu tạo từ thành phần PrAo-Xylane ™ cấp ẩm cho da không bị khô, nứt nẻ và luôn căng mọng suốt hơn 8 tiếng đồng hồ.\n\nBên cạnh đó, dòng son môi này chứa dồi dào vitamin E có công dụng xóa mờ nếp nhăn, giúp môi săn chắc và rạng rỡ hơn bao giờ hết.",
+      "category_id": 5,
+      "stock": "10",
+      "price": "740000",
+      "brand": "Lancome",
+      "usage": "Bảng màu son\n\n#132 Màu đỏ lạnh.\n\n#264 Màu hồng đất.\n\n#378 Màu hồng cánh sen.\n\nƯu điểm: Thành phần lành tính, dịu nhẹ son môi đến từ thương hiệu Lancôme không gây kích ứng cho môi. Ngoài ra, chất son mềm mịn, bám lâu và không gây nặng môi.\n\n",
+      "from": "Pháp",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson-nhu-2.jpg?alt=media&token=c1f04ae1-cb38-4ab7-94e4-059639cf2c87",
+      "id": 40
+    },
+    {
+      "product_name": "Son dưỡng dầu dừa bến tre của Cocoon",
+      "price": "59000",
+      "brand": "Cocoon",
+      "from": "Việt Nam",
+      "stock": "50",
+      "category_id": 8,
+      "description": "Son dưỡng dầu dừa bến tre của Cocoon không màu, có mùi thơm nhẹ của dầu dừa giúp dưỡng ẩm và bảo vệ môi khỏi bị nứt nẻ do thời tiết. Ngoài ra, son dưỡng có độ bóng nhẹ, thoa lên môi sẽ cảm thấy dễ chịu và nhẹ môi.",
+      "usage": "Bước 1: Tẩy trang và tẩy tế bào chết cho môi 2 lần/1 tuần\nBước 2: Làm ấm son môi trước khi thoa\nBước 3: Thoa son nhẹ nhàng và không chà xát theo chiều dọc với son thỏi, bằng tay hoặc bằng tăm bông với son dạng gel, sáp",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Freview-son-duong-moi-tot.png?alt=media&token=2b718725-7e46-430f-8678-3720a6684db9",
+      "id": 41
+    },
+    {
+      "product_name": "Son Kem Lì, Mịn Mượt Nhẹ Môi Black Rouge Double Layer Over Velvet 4.1g",
+      "stock": "20",
+      "price": "189000",
+      "beforeDiscount": "319000",
+      "brand": "Black Rouge",
+      "from": "Hàn Quốc",
+      "category_id": 1,
+      "description": "Chi tiết sản phẩm\nSon Kem Lì, Mịn Mượt Nhẹ Môi Black Rouge Double Layer Over Velvet 4.1g là son kem lì đến từ thương hiệu Black Rouge có kết cấu chất son mịn mượt, giúp đôi môi mịn màng và căng tràn sức sống cả ngày bởi chức năng cấp ẩm sâu.\n• Đặc trưng: \n\nSon Kem Lì, Mịn Mượt Nhẹ Môi Black Rouge Double Layer Over Velvet 4.1g hiện đã có tại Thế giới Skinfood có những đặc trưng nổi bật như sau: \n\n- Vỏ son trong suốt và chắc chắn, được phủ mờ tạo sự sang trọng, thanh lịch và thời thượng. Đặc biệt,thiết kế nằm ở Logo Black Rouge được khắc laser chìm vô cùng tinh tế.\n\n- Với đầu cọ vuông vắn được bo tròn ở các góc cạnh giúp thao tác khi tô son dễ dàng hơn. Liều lượng son lấy ra cũng được tiết chế phù hợp hơn, tránh tình trạng son bị dây ra quá nhiều. \n\n- Thành phần chứa nhiều dưỡng chất có lợi, bảo vệ làn môi triệt để trước những yếu tố từ môi trường. \n\n- Chất son chống lem cực kỳ hiệu quả với lớp finish mịn lì mà căng bóng. Màu sắc lên rõ nét từ lần lướt cọ đầu tiên.\n\n- Cấp ẩm sâu, che phủ hoàn toàn các khuyết điểm của đôi môi, không làm lộ vân môi và rãnh môi.",
+      "usage": "- Thiết kế bắt mắt với tông màu tím pastel pha chút ánh xám nhạt độc quyền của Black Rouge \n\n- Chất velvet ẩm mượt, nhẹ môi với kết cấu nhung lì tăng cường cảm giác mịn mướt và khả năng lên màu cực chuẩn giúp màu sắc tự nhiên, sinh động \n\n- Lớp màng mỏng bao phủ phía trên, giúp son không bị lem hay trôi trong thời gian dài, giữ được màu sắc nguyên vẹn\n\n- Độ bền màu và độ lì của son tốt khi màu sắc của son vẫn được giữ nguyên ngay cả khi đã thoa son được một thời gian dài\n\nDL07  Fauvism Red: Màu cam đỏ tươi\n\nDL08 Apricot Nudism: Màu be nude \n\nDL10 Romantic Pink: Sắc hồng rose\n\nDL11 Dada Chilli: Sắc đỏ táo\n\nDL12 Cubism Brick: Màu gạch trung tính pha chút ánh cam \n\nDL13 Gothic Jujube: Mau đỏ gạch\n\nDL14 Maximal Brown: Tông màu nâu gạch ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fblack_rouge.webp?alt=media&token=549ab455-aa5b-43a0-9c38-77c25f3b7fb2",
+      "id": 42
+    },
+    {
+      "description": "Thiết kế bao bì của Son môi BBIA 25 rất nổi bật với kiểu dáng hình vuông khối được phủ một lớp vàng hồng lấp lánh vô cùng nữ tính và sang trọng. Điểm nổi bật là vỏ hộp có in tên sản phẩm Last Velvet Lip Tint màu trắng. Bên trong hộp giấy là một thỏi son nhỏ hình trụ tròn. Có thể thấy thiết kế của phiên bản này không có nhiều khác biệt so với phiên bản trước. Nắp son được phủ một lớp màu nâu đồng óng ánh tạo vẻ sang trọng. Tuy nhiên, một nhược điểm nhỏ của thiết kế là dễ bị bám dấu vân tay trong quá trình sử dụng. \nChất son mềm và xốp với độ lỏng vừa phải. Bảng thành phần nhiều dưỡng nên khi thoa lên môi có cảm giác rất mềm mượt, màu lên chuẩn và che phủ tốt một số khuyết điểm.\nBBIA Ver 5 màu 25 Final là màu đỏ nâu đậm trầm giúp gương mặt nổi bật và cuốn hút. Vì màu này có tỷ lệ đỏ cao hơn nâu nên không làm da bị xỉn màu mà tôn da và làm sáng men răng rất tốt. Màu này phù hợp với những cô nàng cá tính và thanh lịch khi kết hợp với kiểu trang điểm đậm.",
+      "category_id": 1,
+      "stock": "20",
+      "price": "229000",
+      "brand": "BBIA",
+      "from": "Hàn Quốc",
+      "product_name": "BBia Last Velvet Lip Tint Version 5 màu 25: Final Note",
+      "usage": "Son BBIA Note Series (Version 5) mang phong cách cổ điển. Vì vậy, mặc dù sắc thái chủ đạo ở dòng son này là những gam màu tối nhưng không hề làm da bị tối hay xỉn màu. Kết cấu son khá đặc nhưng lại cho cảm giác mềm mịn, không bị khô môi. Son BBIA version 5 này gồm 5 màu: Sweetbox, Romantic Note, Mellow Note, Final Note và Trendy Note.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Ftop-5-mau-son-duoc-yeu-thich-nhat-nha-bbia.jpg?alt=media&token=fa2e3118-f270-4b61-8e42-b42c0a326113",
+      "id": 43
+    },
+    {
+      "category_id": 2,
+      "product_name": "Son kem NARS Air Matte Lip Color",
+      "stock": "20",
+      "price": "750000",
+      "beforeDiscount": "",
+      "brand": "NARS ",
+      "from": "Mỹ",
+      "usage": "",
+      "description": "Đặc điểm nổi bậtChất son cực mềm và mịn môi, không có dấu hiệu bột như một số dòng son bình dân trên thị trường. Son dễ tán, không bị vón cục.Khả năng giữ màu khá tốt, tới 6 - 7 tiếng đồng hồ nếu bạn không ăn gì, còn nếu ăn thì son giữ màu được khoảng 3 - 4 tiếng.Son lên màu chuẩn, không bị lộ môi.:Màu son đa dạng, phong phú, phù hợp với nhiều phong cách và tông da khác nhau.Son có thành phần lành tính, không chứa paraben, sulfat hay phthalate, an toàn cho sức khỏe và môi trường.Thiết kế khá đơn giản nhưng cầm son trên tay có cảm giác rất chắc luôn.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson-kem-li-nars.jpg?alt=media&token=65e9b676-e770-4de7-bc21-19c1003badd1",
+      "id": 44
+    },
+    {
+      "product_name": "Son kem siêu lì Revlon Ultra HD Lip Mousse",
+      "description": "Revlon Ultra HD Lip Mousse là dòng son kem siêu lì đến từ Mỹ, nổi tiếng với độ bám màu cao, chất son mịn như bông và lên màu chuẩn. Sản phẩm có thiết kế tương đối lạ mắt nhưng rất thu hút ánh nhìn.",
+      "stock": "20",
+      "price": "399000",
+      "brand": "Revlon",
+      "from": "Mỹ",
+      "category_id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Fson-kem-li-revlon.jpg?alt=media&token=3687aedd-4286-4b7a-910d-0be1396c13b4",
+      "id": 45
     }
   ],
   "users": [
@@ -765,7 +687,7 @@
       "address": "Thanh Xuân, Hà Nội",
       "image": "../../../public/images/avatar.jpeg",
       "role": 1,
-      "active": true
+      "active": false
     },
     {
       "id": 2,
@@ -789,7 +711,7 @@
       "address": "Thanh Xuân, Hà Nội",
       "image": "../../../public/images/avatar.jpeg",
       "role": 1,
-      "active": true
+      "active": false
     },
     {
       "id": 5,
@@ -813,7 +735,7 @@
       "image": "../../../public/images/avatar.jpeg",
       "role": 1,
       "id": 6,
-      "active": false
+      "active": true
     },
     {
       "email": "admin@gmail.com",
@@ -836,16 +758,16 @@
       "address": "",
       "image": "../../../public/images/avatar.jpeg",
       "role": 1,
-      "active": true,
+      "active": false,
       "id": 8
     },
     {
       "email": "ac@gmail.com",
-      "password": "$2a$10$wp61EXzN4rhBF5bY2hjy4uHizbkLCpnm6yn6P2w8vSBPzh.aNPt8q",
+      "password": "$2a$10$oKw1RiR1lE3s6aK/prFr4OvWU7MDJIz9P84VIUaDUDPEkFFPVjHLO",
       "fullname": "ac",
       "phoneNumber": "0665435656",
-      "address": "Hà Nội",
-      "image": "../../../public/images/avatar.jpeg",
+      "address": " Nam Từ Liêm, Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/md02-project.appspot.com/o/users%2Foffer-1.png?alt=media&token=aaf066de-c660-4818-8a76-038d2fe0e233",
       "dateOfBirth": "11/11/2000",
       "role": 1,
       "active": true,

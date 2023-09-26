@@ -6,6 +6,7 @@ import { Button, Pagination, Select } from 'antd';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import { debounce } from 'lodash';
 import { formatDate } from '../../../utils/formatData';
+import { SpaceContext } from 'antd/es/space';
 
 export default function ManagerUser() {
     const [showCheck, setShowCheck] = useState(false);
@@ -135,7 +136,7 @@ export default function ManagerUser() {
                                     <td className='p-3'>{u.dateOfBirth ? (formatDate(u.dateOfBirth)) : (<></>)}</td>
                                     <td className='p-3'>{u.address}</td>
                                     <td className='p-3'>{u.role === 0 ? ("Admin") : ("User")}</td>
-                                    < td className='p-3'>{u.active === true ? ("Hoạt động") : ("Bị khoá")}</td>
+                                    < td className='p-3'>{u.active === true ? (<><span className='text-primary'>Hoạt động</span></>) : (<><span className='text-danger'>Bị khoá</span></>)}</td>
                                     <td className='p-3' ><button onClick={() => handleShowCheck(u.id)} className='btn border-primary d-flex align-items-center gap-1 justify-content-center'><i className="fa-solid fa-book-open-reader fs-6 text-primary"></i>Xem</button></td>
                                     {u.role === 1 ? (u.active === true ?
                                         (< td className='p-3'><button onClick={() => dispatch(changeActiveUser(u))} className='btn border-danger d-flex align-items-center gap-1 justify-content-center'><i className="fa-solid fa-user-lock fs-6 text-danger"></i>Khoá</button ></td>)

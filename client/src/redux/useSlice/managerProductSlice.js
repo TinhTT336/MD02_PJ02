@@ -9,12 +9,13 @@ export const getAllProducts = createAsyncThunk(
     // console.log(searchText);
     if (searchText !== undefined || sort !== undefined) {
       const response = await instance.get(
-        `products?_sort=price&_order=${sort}&product_name_like=${searchText}`
-        //&_sort=${sort}&_order=desc`
+        `products?_sort=id,price&_order=${sort}&product_name_like=${searchText}`
       );
       return response.data;
     } else {
-      const response = await instance.get(`products/?_sort=price&_order=asc`);
+      const response = await instance.get(
+        `products/?_sort=id,price&_order=asc`
+      );
       return response.data;
     }
   }

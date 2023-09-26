@@ -1,5 +1,6 @@
 import React from 'react';
 import "./footer.css";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -8,14 +9,14 @@ export default function Footer() {
             <div className="container-fluid bg-secondary text-dark mt-5 pt-5 t-footer">
                 <div className="row px-xl-5 pt-5">
                     <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
-                        <a href="" className="text-decoration-none">
+                        <Link to={"/"} className="text-decoration-none">
                             <h1 className="mb-4 display-5 font-weight-semi-bold">
                                 <span className="text-primary font-weight-bold border border-white px-3 mr-1">
                                     T
                                 </span>
                                 mestics
                             </h1>
-                        </a>
+                        </Link>
                         <p className="mb-2">
                             <i className="fa fa-map-marker-alt text-primary mr-3" />
                             Toà nhà Sông Đà, Mỹ Đình 1, Nam Từ Liêm, Hà Nội
@@ -29,23 +30,35 @@ export default function Footer() {
                             +012 345 67890
                         </p>
                     </div>
-                    <div className="col-lg-8 col-md-12">
+                    <div className="col-lg-8 col-md-12 ">
                         <div className="row">
                             <div className="col-md-4 mb-5">
                                 <h5 className="font-weight-bold text-dark mb-4">DANH MỤC SẢN PHẨM</h5>
                                 <div className="d-flex flex-column justify-content-start">
-                                    <a className="text-dark mb-2" href="index.html">
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="index.html">
                                         <i className="fa fa-angle-right mr-2" />
-                                        Trang điểm
-                                    </a>
-                                    <a className="text-dark mb-2" href="shop.html">
+                                        Son dưỡng - Lip Balm
+                                    </Link>
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="shop.html">
                                         <i className="fa fa-angle-right mr-2" />
-                                        Dưỡng da
-                                    </a>
-                                    <a className="text-dark mb-2" href="detail.html">
+                                        Son kem - Creame Lipstick
+                                    </Link>
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="detail.html">
                                         <i className="fa fa-angle-right mr-2" />
-                                        Chăm sóc cơ thể
-                                    </a>
+                                        Son lì - Matte Lipstick
+                                    </Link>
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="detail.html">
+                                        <i className="fa fa-angle-right mr-2" />
+                                        Son bóng - Lip Gross
+                                    </Link>
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="detail.html">
+                                        <i className="fa fa-angle-right mr-2" />
+                                        Son nước - Lip tint
+                                    </Link>
+                                    <Link to={"/list-product"} className="text-dark mb-2" href="detail.html">
+                                        <i className="fa fa-angle-right mr-2" />
+                                        Son nhũ - Pearly Lipstick
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">

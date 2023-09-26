@@ -19,11 +19,11 @@ export default function Order({ title, cartLength }) {
     const handleStatusCodeOrder = (statusCode) => {
         switch (statusCode) {
             case 1:
-                return `Đang chờ xác nhận`
+                return (<><span className='text-secondary'>Đang chờ xác nhận </span></>)
             case 2:
-                return ` Đã xác nhận`
+                return (<><span className='text-primary'>Đã xác nhận </span></>)
             case 3:
-                return ` Đã huỷ`
+                return (<><span className='text-danger'>Đã huỷ </span></>)
         }
     }
 

@@ -208,7 +208,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                             <thead className=" text-dark card-header ">
                                 <tr>
                                     <th>#</th>
-                                    <th></th>
+                                    <th>Hình ảnh</th>
                                     <th>Sản phẩm</th>
                                     <th>Giá</th>
                                     <th>Số lượng</th>
@@ -219,6 +219,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                             <tbody className="align-middle">
                                 {listProduct && listProduct.length > 0 ? (listProduct.map((pro, index) => (
                                     <tr key={index}>
+
                                         <td className="align-middle">{index + 1}</td>
                                         <td className="align-middle"><img src={pro.data.image} alt="" width={100} height={100} /></td>
                                         <td className="text-left  gap-1">
@@ -237,7 +238,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                                                 </div>
                                                 <span
                                                     type="text"
-                                                    className="form-control form-control-sm  text-center"
+                                                    className="form-control form-control-sm  text-center rounded-0"
                                                     defaultValue={1}
                                                 >{pro.quantity}</span>
                                                 <div className="input-group-btn">
@@ -247,7 +248,7 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td className="align-middle">{formatMoney(pro.data.price * pro.quantity)}</td>
+                                        <td className="align-middle ">{formatMoney(pro.data.price * pro.quantity)}</td>
                                         <td className="align-middle">
                                             <button className="btn btn-sm btn-primary" onClick={() => handleShowModalDelete(pro.productId)}>
                                                 <i className="fa fa-times" />
@@ -279,9 +280,11 @@ export default function Cart({ title, cartLength, setIsLoadCartLength }) {
                                     <h5 className="font-weight-bold">Tổng</h5>
                                     <h5 className="font-weight-bold">{formatMoney(total)}</h5>
                                 </div>
-                                <Link to={"/checkout"}> <button className="btn btn-block btn-primary my-3 py-3">
-                                    Tiến hành đặt hàng
-                                </button></Link>
+                                {listProduct && listProduct.length > 0 ? (
+                                    <Link to={"/checkout"}> <button className="btn btn-block btn-primary my-3 py-3">
+                                        Tiến hành đặt hàng
+                                    </button></Link>
+                                ) : (<></>)}
                                 <Link to={"/list-product"}><i className="fa-solid fa-arrow-left"></i>  Tiếp tục mua hàng</Link>
                             </div>
                         </div>

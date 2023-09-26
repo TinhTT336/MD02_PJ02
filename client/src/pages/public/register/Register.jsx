@@ -41,7 +41,7 @@ export default function Register() {
                 }
             case "email":
                 if (!valueInput) {
-                    setFullnameErr("Họ và tên không được để trống")
+                    setEmailErr("Email không được để trống")
                 } else if (!validateEmail(valueInput)) {
                     setEmailErr("Email không đúng định dạng")
                 } else {
@@ -186,8 +186,8 @@ export default function Register() {
                                         value="option1"
                                         onChange={handleChecked}
                                     />
-                                    <label className="form-check-label" htmlFor="inlineCheckbox1" style={{ fontSize: 13 }}>
-                                        Bạn có đồng ý với <a href="#">điều khoản</a> của chúng tôi?
+                                    <label className="form-check-label" htmlFor="inlineCheckbox1" style={{ fontSize: 14 }}>
+                                        Bạn có đồng ý với <a href="#" className='text-primary'>điều khoản</a> của chúng tôi?
                                     </label>
                                 </div>
                                 <button type='submit' disabled={!isDisable} className="t-btn btn-register">Đăng ký</button>

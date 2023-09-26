@@ -1,7 +1,7 @@
 import React from 'react'
 import { MenuOutlined, BellOutlined, MessageOutlined, LogoutOutlined, KeyOutlined, AccountBookOutlined } from "@ant-design/icons";
 import "./header.css"
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Modal } from 'antd';
 
 export default function Header() {
@@ -50,12 +50,12 @@ export default function Header() {
                                     <img src={userLogin.image} width={30} height={30} className='rounded-circle' />  {userLogin.fullname}
                                 </span>
                                     <div className="dropdown-menu m-0  custom-dropdown-menu dropdown-menu-right mt-3 rounded">
-                                        <a className="dropdown-item ">
+                                        <Link to={"/profile"} className="dropdown-item ">
                                             <i className="fa-solid fa-user me-2"></i>  Thông tin tài khoản
-                                        </a>
-                                        <a className="dropdown-item" onClick={showModalLogout}>
+                                        </Link>
+                                        <Link className="dropdown-item" onClick={showModalLogout}>
                                             <i className="fa-solid fa-right-from-bracket me-2"></i>  Đăng xuất
-                                        </a>
+                                        </Link>
                                     </div></>)
                                     : (<></>)) : (<></>)
                             }

@@ -83,42 +83,18 @@ export default function Profile({ title, cartLength }) {
                 // const user = response.data.find(u => u.id === userLogin.id);
                 // console.log(user);
                 const userChangeInfo = {
-                    "email": userLogin?.email,
                     "fullname": userLogin?.fullname,
                     "phoneNumber": userLogin?.phoneNumber,
                     "address": userLogin?.address,
                     "image": userLogin?.image,
                     "dateOfBirth": userLogin?.dateOfBirth,
                 }
-                // if (user == undefined) {
-                //     instance.post("users", userChangeInfo);
-                //     // Lưu thông tin lên local
-                //     localStorage.setItem("userLogin", JSON.stringify(userChangeInfo));
-                //     navigate("/");
-                // } else {
+
                 instance.patch(`users/${userLogin.id}`, userChangeInfo);
                 // Lưu thông tin lên local
-                localStorage.setItem("userLogin", JSON.stringify(userChangeInfo));
+                localStorage.setItem("userLogin", JSON.stringify({ ...userLogin, ...userChangeInfo }));
                 navigate("/");
 
-                // if (userLogin.newPassword !== "" && userLogin.newPassword === userLogin.password) {
-                //     axios.put(`users/${user.id}`, { ...userLogin, newPassword });
-                //     // Lưu thông tin lên local
-                //     localStorage.setItem("userLogin", JSON.stringify(userLogin));
-                //     // Chuyển hướng về trang home
-                //     Navigate("/");
-                // } else if (userLogin.newPassword == "" && userLogin.newPassword === userLogin.password) {
-                //     axios.put(`users/${user.id}`, userLogin);
-                //     // Lưu thông tin lên local
-                //     localStorage.setItem("userLogin", JSON.stringify(userLogin));
-                //     // Chuyển hướng về trang home
-                //     Navigate("/");
-                // } else {
-                //     notification.warning({
-                //         message: "Cảnh báo",
-                //         description: "Sai mật khẩu, vui lòng kiểm tra lại"
-                //     })
-                // }
                 notification.success({
                     message: "Thông báo:",
                     description: "Đã thay đổi thông tin tài khoản!"
@@ -179,7 +155,7 @@ export default function Profile({ title, cartLength }) {
                                     <div className="col-md-6 mb-4">
                                         <label htmlFor='email' className="labels">Email</label>
                                         <input id='email' onChange={handleChange}
-                                            name='email'
+                                            name='email' readOnly
                                             type="text"
                                             className="form-control"
                                             value={userLogin.email}
@@ -207,34 +183,34 @@ export default function Profile({ title, cartLength }) {
                                         />
                                     </div>
                                 </div>
-                                {/* <div className='d-flex justify-content-between mt-4'>
-                                    <div className="col-md-6 mb-4">
-                                        <label htmlFor='email' className="labels">Mật khẩu hiện tại</label>
+                                {/* <div className='d-flex justify-content-between mt-2'>
+                                    <div className="col-md-12 mt-1">
+                                        <label htmlFor='password' className="labels">Mật khẩu</label>
                                         <input id='password' onChange={handleChange}
                                             name='password'
-                                            type="text"
+                                            type="password"
                                             className="form-control"
-                                            value={userLogin.confirmPassword}
-                                        />
-                                    </div>
-                                    <div className="col-md-6 mb-4">
-                                        <label htmlFor='newPassword' className="labels">Mật khẩu mới</label>
-                                        <input id='newPassword' onChange={handleChange}
-                                            name='newPassword'
-                                            type="text"
-                                            className="form-control"
-                                            value={userLogin.newPassword}
+                                            value={userLogin.password}
                                         />
                                     </div>
                                 </div> */}
-                                <div className="mt-4 ms-3 d-flex">
-                                    <button onClick={handleUpdate} className="btn btn-primary profile-button me-2 rounded" type="button">
-                                        Cập nhật
-                                    </button>
-                                    <button onClick={handleCancel} className="btn btn-secondary profile-button rounded" type="button">
-                                        Huỷ bỏ
-                                    </button>
-                                </div>
+
+                                {userLogin.role === 1 ? (
+                                    <div className="mt-4 ms-3 d-flex">
+                                        <button onClick={handleUpdate} className="btn btn-primary profile-button me-2 rounded" type="button">
+                                            Cập nhật
+                                        </button>
+                                        <button onClick={handleCancel} className="btn btn-secondary profile-button rounded" type="button">
+                                            Đóng
+                                        </button>
+                                    </div>
+                                ) : (
+                                    <div className="mt-4 ms-1 d-flex">
+                                        <button onClick={handleCancel} className="btn btn-secondary profile-button rounded" type="button">
+                                            Đóng
+                                        </button>
+                                    </div>
+                                )}
                             </div>
                         </div>
 

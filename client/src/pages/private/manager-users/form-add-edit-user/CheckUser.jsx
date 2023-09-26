@@ -48,9 +48,9 @@ export default function CheckUser({ handleCloseCheck, idCheck }) {
                         <input type="text" name="fullname" id="fullname" onChange={handleChangeInput}
                             value={user.fullname} />
                     </div>
-                    <div className='d-flex justify-content-between align-items-center'>
+                    <div className='d-flex gap-3 align-items-center'>
                         <label htmlFor="image">Avatar</label>
-                        <img src={findUser.image} width={30} height={30} className='rounded' />
+                        <img src={findUser.image} width={30} height={30} className='rounded' style={{ textAlign: "left" }} />
                     </div>
                     <div className='d-flex justify-content-between align-items-center'>
                         <label htmlFor="email">Email</label>
@@ -77,7 +77,7 @@ export default function CheckUser({ handleCloseCheck, idCheck }) {
                         <input type="text" name="active" id="active" onChange={handleChangeInput} value={user.active === true ? "Hoạt động" : "Bị khoá"} />
                     </div>
                     <div className='d-flex justify-content-end gap-2 mt-2'>
-                        <button className='btn-form-admin bg-secondary' onClick={handleCloseCheck}><i className="fa-solid fa-xmark  "></i> Huỷ bỏ</button>
+                        <button className='btn-form-admin bg-secondary' onClick={handleCloseCheck}><i className="fa-solid fa-xmark  "></i> Đóng</button>
                         {user.role === 1 ? (user.active === true ?
                             (<><button className='btn-form-admin btn-add-product bg-danger' onClick={() => dispatch(changeActiveUser(user))}><i className="fa-solid fa-user-lock  "></i>  Khoá tài khoản</button></>)
                             : (<><button className='btn-form-admin btn-add-product' onClick={() => dispatch(changeActiveUser(user))}><i className="fa-solid fa-unlock  "></i>  Mở khoá tài khoản</button></>)) : (<></>)}

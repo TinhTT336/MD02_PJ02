@@ -12,7 +12,7 @@ export const getCategory = createAsyncThunk(
       );
       return response.data;
     } else {
-      const response = await axios.get(`categories/?_sort=id&_order=asc`);
+      const response = await axios.get(`categories/?_sort=id&_order=desc`);
       return response.data;
     }
   }

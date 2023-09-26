@@ -10,6 +10,12 @@
   color: #fff !important;
   border: transparent;
 }
-/* .nav-link {
+span.nav-link.active {
   color: #d29c97 !important;
-} */
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: large;
+}
+span.nav-item.nav-link {
+  color: #495057;
+}

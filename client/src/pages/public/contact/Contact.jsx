@@ -4,6 +4,9 @@ import HeaderWithNavbar from '../../../components/user/header/HeaderWithNavbar'
 import Banner from '../../../components/user/banner/Banner'
 import HeaderCopy from '../../../components/user/header/HeaderCopy'
 import BackToTop from '../../../components/base/backToTop/BackToTop';
+import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
+import "./contact.css";
 
 export default function Contact({ title, cartLength }) {
     return (
@@ -63,7 +66,6 @@ export default function Contact({ title, cartLength }) {
                                         placeholder="Tin nhắn"
                                         required="required"
                                         data-validation-required-message="Please enter your message"
-                                        defaultValue={""}
                                     />
                                     <p className="help-block text-danger" />
                                 </div>
@@ -73,7 +75,7 @@ export default function Contact({ title, cartLength }) {
                                         type="submit"
                                         id="sendMessageButton"
                                     >
-                                        GỬI
+                                        <Link to={"/"} className='text-white'>GỬI</Link>
                                     </button>
                                 </div>
                             </form>

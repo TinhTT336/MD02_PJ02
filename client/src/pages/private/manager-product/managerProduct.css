@@ -84,3 +84,7 @@ td {
 .ant-pagination {
   white-space: nowrap;
 } */
+
+.fa-icons:hover {
+  cursor: pointer !important;
+}

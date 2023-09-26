@@ -15,12 +15,31 @@ export default function ManagerProduct() {
     const [idDelete, setIdDelete] = useState();
     const [isModalOpenDelete, setIsModalOpenDelete] = useState(false);
     const [searchText, setSearchText] = useState("");
-    const [sort, setSort] = useState("esc")
+    const [sort, setSort] = useState("desc")
 
     const dispatch = useDispatch();
     const products = useSelector((state) => state.products.data);
     const isLoadingChange = useSelector((state) => state.products.isLoadingChange);
     // console.log(products);
+
+    //kiem tra va hien thi ten category
+    const handleShowCategoryName = (categoryId) => {
+        switch (categoryId) {
+            case 8:
+                return `  Son dưỡng - Lip Balm `
+            case 1:
+                return ` Son kem - Creame Lipstick`
+            case 2:
+                return ` Son lì - Matte Lipstick`
+            case 3:
+                return ` Son bóng - Lip Gross"`
+            case 4:
+                return ` Son nước - Lip tint`
+            case 5:
+                return ` Son nhũ - Pearly Lipstick"`
+        }
+    }
+
     //================================================================
     //ham hien form add
     const handleShowAdd = () => {
@@ -191,7 +210,7 @@ export default function ManagerProduct() {
                                     {product.beforeDiscount ? (<td className='p-3' >{formatMoney(product.beforeDiscount)}</td>) : (<><td></td></>)}
                                     <td className='p-3'>{product.brand}</td>
                                     <td className='p-3'>{product.from}</td>
-                                    < td className='p-3'>{product.category_id}</td>
+                                    < td className='p-3'>{handleShowCategoryName(product.category_id)}</td>
                                     <td className='p-3'>
                                         {product.description && typeof product.description === 'string' && product.description.length > 20 ? (
                                             <span>
@@ -223,8 +242,8 @@ export default function ManagerProduct() {
                                             product.usage
                                         )}
                                     </td>
-                                    <td className='p-3' ><i onClick={() => handleShowEdit(product.id)} className="fa-solid fa-pen-to-square text-warning fs-4"></i></td>
-                                    < td className='p-3' ><i onClick={() => handleShowModalDelete(product.id)} className="fa-solid fa-trash text-danger fs-4"></i></td>
+                                    <td className='p-3' ><i onClick={() => handleShowEdit(product.id)} className="fa-solid fa-pen-to-square text-warning fs-4 fa-icons"></i></td>
+                                    < td className='p-3' ><i onClick={() => handleShowModalDelete(product.id)} className="fa-solid fa-trash text-danger fs-4 fa-icons"></i></td>
                                 </tr>
                             ))}
                         </tbody>

@@ -26,7 +26,7 @@
   background: url(../../../../public/images/login/login1.jpeg) no-repeat !important;
   background-position: center !important;
   background-size: cover !important;
-  height: 78vh;
+  height: 74vh;
   border-radius: 6px 0px 0px 6px;
 }
 .form-left-content-up {
@@ -47,16 +47,17 @@
 .text-color {
   color: #fff !important;
   text-align: center;
-  font-size: 13px;
+  font-style: italic;
 }
 .text-color:hover {
-  color: #fff !important;
+  color: #d29c97 !important;
 }
 .form-container-right-up {
   width: 55%;
   float: left;
-  padding: 24px 0 0;
-  height: 78vh;
+  padding: 12px 0 0;
+  /* height: 74vh; */
+  height: fit-content;
 }
 .form-container-right-up .form-content {
   width: 100% !important;
@@ -75,12 +76,12 @@
 .form-content input[type="text"],
 .form-content input[type="password"] {
   width: 75%;
-  height: 3rem;
+  /* height: 3rem; */
   padding: 0 8px;
   color: #333 !important;
   font-size: 14px;
   font-weight: 400 !important;
-  background-color: transparent;
+  background-color: #fff !important;
 
   border-bottom: 5px solid #b7b4b4 !important;
   border-top-color: transparent;
@@ -176,8 +177,8 @@
   color: #feefef;
 }
 .t-form-container .btn-register:hover {
-  background-color: #c17a74 !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #000 !important;
   /* opacity: 0.85 !important; */
 }
 .t-form-container .btn-register:active {

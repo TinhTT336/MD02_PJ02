@@ -32,7 +32,7 @@ export default function Categories() {
                                 <div className="cat-img position-relative overflow-hidden mb-3">
                                     <img className="img-fluid rounded" src={cat.image} alt="" />
                                 </div>
-                                <Link to={"/list-product"}> <h5 className="font-weight-semi-bold m-0 category-title">{cat.category_name}</h5></Link>
+                                <h5 className="font-weight-semi-bold m-0 category-title"><Link to={"/list-product"}>{cat.category_name}</Link></h5>
                             </div>
                         </div>
                     ))}

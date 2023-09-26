@@ -174,6 +174,7 @@ export default function ManagerCategory() {
     const totalPage = categories.length / pageSize;
     const startIndex = (currentPage - 1) * pageSize;
     const endIndex = startIndex + pageSize;
+    // categories = categories.sort((a, b) => b.id - a.id);
     const displayCategory = categories.slice(startIndex, endIndex);
 
     //ham xu ly su kien khi thay doi trang

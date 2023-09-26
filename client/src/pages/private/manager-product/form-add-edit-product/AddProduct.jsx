@@ -89,12 +89,11 @@ export default function AddProduct({ handleCloseAdd }) {
             <div className='form-container-admin-crud'>
                 <form className='p-4' onSubmit={handleSubmit}>
                     <h3>Thêm mới sản phẩm</h3>
-                    <div className='d-flex justify-content-between align-items-center'>
+                    <div className='d-flex d-flex justify-content-between align-items-center'>
                         <label htmlFor="image">Hình ảnh</label>
-                        {/* <input type="file" name="image" id="image" onChange={handleChangeInput} /> */}
-                        <div className="text-start mt-2">
-                            <Upload {...props} className='ms-4'>
-                                <img src={imageURL} alt="" width={40} height={40} className='rounded-circle' />
+                        <div className="mt-2 ">
+                            <Upload {...props} className='gap-2'>
+                                <img src={imageURL} alt="" className='rounded' />
                                 <Button icon={<UploadOutlined />}>Tải hình ảnh</Button>
                             </Upload>
                         </div>

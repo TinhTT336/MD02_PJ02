@@ -109,7 +109,7 @@ export default function EditProduct({ handleCloseEdit, idEdit }) {
                         <label htmlFor="image">Hình ảnh</label>
                         <div className="text-start mt-2">
                             <Upload {...props} className='ms-5'>
-                                <img src={product.image} alt="" width={40} height={40} className='rounded-circle me-2' />
+                                <img src={product.image} alt="" className='rounded me-2' />
                                 <Button icon={<UploadOutlined />}>Thay đổi hình ảnh</Button>
                             </Upload>
                         </div>

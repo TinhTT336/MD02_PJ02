@@ -6,3 +6,18 @@
 .t-footer {
   background-color: #f4f4f4 !important;
 }
+.t-footer-icon img:hover {
+  cursor: pointer;
+}
+.t-footer a:hover {
+  padding-left: 8px;
+  color: #ba6a62 !important;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #ba6a62 !important;
+  transition: all 0.2s ease-in-out;
+  /* text-transform: uppercase; */
+  /* font-weight: 600; */
+}

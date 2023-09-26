@@ -72,6 +72,17 @@
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   transition: all 0.2 ease-in-out;
 }
+.t-category a:hover,
+.product-list-item a:hover {
+  text-decoration: none !important;
+  color: #ba6a62 !important;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.t-category a {
+  color: inherit !important;
+}
 
 /* .offer-item img {
   width: 50% !important;

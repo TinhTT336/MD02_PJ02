@@ -8,6 +8,7 @@ t.t-search,
   top: 0;
   z-index: 999;
   background-color: #fff !important;
+  font-size: 14px !important;
 }
 .t-container-navbar {
   background-color: #fff;
@@ -61,4 +62,11 @@ t.t-search,
   text-align: center;
   opacity: 0.25;
   color: #000;
+}
+.account-dropdown {
+  cursor: pointer !important;
+}
+.custom-dropdown-menu {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 14px !important;
 }

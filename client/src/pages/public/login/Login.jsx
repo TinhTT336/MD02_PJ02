@@ -73,7 +73,6 @@ export default function Login() {
             //goi API dang nhap
             instance.post("login", { ...newUser })
                 .then((response) => {
-                    // console.log(response);
                     if (response.status === 200) {
                         localStorage.setItem("userLogin", JSON.stringify(response.data.user));
                         // chuyen trang
@@ -177,11 +176,11 @@ export default function Login() {
                     <div className='form-container-right-in'>
                         <form className="form-content d-flex flex-column" onSubmit={handleSubmit}>
                             <div>
-                                <input name="email" type="text" placeholder="Email *" onChange={handleInputChange} />
+                                <input name="email" type="text" placeholder="Email *" onChange={handleInputChange} onBlur={handleInputChange} />
                                 {emailError && (<div className='text-danger text-err'>{emailError}</div>)}
                             </div>
                             <div>
-                                <input name="password" type="password" placeholder="Mật khẩu *" onChange={handleInputChange} />
+                                <input name="password" type="password" placeholder="Mật khẩu *" onChange={handleInputChange} onBlur={handleInputChange} />
                                 {passwordError && (<div className='text-danger text-err'>{passwordError}</div>)}
                             </div>
                             <div className='w-100 mt-2'><button className="t-btn btn-signup mt-5">Đăng nhập</button></div>
@@ -194,7 +193,7 @@ export default function Login() {
                                 <span className=''>Hoặc</span>
                             </div>
                             <div className='login-with-gg w-100 '>
-                                <button onClick={signInWithGoogle} className='t-btn btn-signin-gg mb-3' style={{ width: "80%" }}>
+                                <button onClick={signInWithGoogle} type='button' className='t-btn btn-signin-gg mb-3' style={{ width: "80%" }}>
                                     <img height={20} width={20} className='me-2 rounded-circle'
                                         src="https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg" alt="" />
                                     Đăng nhập với Google</button>

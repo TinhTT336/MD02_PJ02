@@ -101,15 +101,13 @@ export default function ProductDetail({ title, cartLength, setIsLoadCartLength }
                     setCarts([...carts, response.data])
                 }
                 setIsLoadCartLength(pre => !pre)
-                localStorage.setItem("cartLocal", JSON.stringify(userCart.cartDetails));
-                // console.log(cartLocal, "cartLocal");
-
             }
             catch (error) {
                 console.log(error);
             }
         } else {
             notifyLogin();
+            Navigate("/login");
         }
     }
 

@@ -9,22 +9,28 @@
   /* background-color: #edc9b5 !important; */
   padding: 0 !important;
 }
+.btn-form-category:hover {
+  cursor: pointer;
+}
 .category-items {
   padding: 6px 6px 6px 12px !important;
   border-radius: 4px !important;
   border-radius: 0px 100px 100px 0 !important;
+  cursor: pointer !important;
 }
 .category-items:hover {
   padding-left: 2.5rem !important;
   transition: all 0.3s ease-in-out;
+  cursor: pointer !important;
 }
-/* .category-items:focus {
+.category-items:focus {
+  cursor: pointer !important;
   background-color: #d29c97 !important;
   color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px !important;
 }
-.category-items:active {
+/* .category-items:active {
   background-color: #d29c97 !important;
   color: #fff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,

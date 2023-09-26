@@ -136,6 +136,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
             }
         } else {
             notifyLogin();
+            Navigate("/login");
         }
     }
 
@@ -170,9 +171,10 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
                     <div className="col-lg-3 col-md-12">
                         {/* Product Start */}
                         <div className="border-bottom mb-3 list-product">
-                            <h5 className="font-weight-semi-bold mb-4">Danh mục sản phẩm  <i className="fa fa-angle-down  float-right" onClick={handleFormCategories} /></h5>
+                            {/* <h5 className="font-weight-semi-bold mb-4">Danh mục sản phẩm  <i className="fa fa-angle-down  float-right" onClick={handleFormCategories} /></h5> */}
                             {formCategories ?
                                 (<>
+                                    <h5 className="font-weight-semi-bold mb-4">Danh mục sản phẩm  <i className="fa fa-angle-down  float-right btn-form-category" onClick={handleFormCategories} /></h5>
                                     <div className='form-categories' >
                                         <div onClick={() => setCategoryId(0)}
                                             className="custom-control d-flex align-items-center justify-content-between mb-1 category-items"
@@ -182,7 +184,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
                                                     "rgba(0, 0, 0, 0.3) 0px 8px 16px -8px ")
                                             } : {}}
                                         >
-                                            <label className="control-label" htmlFor="price-all">
+                                            <label className="control-label " htmlFor="price-all">
                                                 Tất cả sản phẩm
                                             </label>
                                         </div>
@@ -202,7 +204,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
 
                                     </div>
                                 </>)
-                                : (<></>)}
+                                : (<><h5 className="font-weight-semi-bold mb-4">Danh mục sản phẩm  <i className="fa fa-angle-up float-right btn-form-category" onClick={handleFormCategories} /></h5></>)}
                         </div>
                     </div>
                     {/* Product End */}

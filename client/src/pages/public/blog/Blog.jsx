@@ -210,9 +210,9 @@ export default function Blog({ title, cartLength }) {
                             </div>
                         </div>
                         <div className="col-lg-12 text-center">
-                            <a href="#" className="primary-btn load-btn">
+                            <Link to={"/list-product"} className="primary-btn load-btn">
                                 Xem thêm
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

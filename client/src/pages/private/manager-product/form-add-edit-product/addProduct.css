@@ -16,7 +16,7 @@
   top: 0;
   right: 0;
   z-index: 999;
-  width: 700px;
+  width: 600px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -26,8 +26,10 @@
   border-radius: 4px;
   background-color: #e6e4e4;
   box-shadow: 0 6px 15px 1px rgba(0, 0, 0, 0.3);
+  padding-top: 50%;
 }
 .form-container-admin-crud > form h3 {
+  padding: 12px 0;
   text-align: center !important;
   text-transform: uppercase !important;
 }
@@ -45,6 +47,11 @@
 }
 .form-container-admin-crud > form textarea {
   min-height: 60px;
+}
+.form-container-admin-crud img {
+  width: 100px;
+  height: 100px;
+  text-align: left;
 }
 .btn-form-admin {
   border: none !important;

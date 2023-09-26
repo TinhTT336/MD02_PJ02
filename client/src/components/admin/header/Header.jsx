@@ -7,11 +7,11 @@ import { Modal } from 'antd';
 export default function Header() {
     const navigate = useNavigate();
     // lay thong tin userLogin tu local ve
-    const userLogin = JSON.parse(localStorage.getItem('userLogin'));
+    const userLoginAdmin = JSON.parse(localStorage.getItem('userLoginAdmin'));
 
     // ham dang xuat
     const handleLogout = () => {
-        localStorage.removeItem('userLogin');
+        localStorage.removeItem('userLoginAdmin');
         navigate("/");
     }
 
@@ -28,7 +28,6 @@ export default function Header() {
                 okText: "Đăng xuất";
             }
         }
-
         )
     }
     return (
@@ -42,13 +41,13 @@ export default function Header() {
                         <BellOutlined style={{ fontSize: 20 }} />
                         <MessageOutlined style={{ fontSize: 20 }} />
                         <div className="dropdown  " >
-                            {userLogin !== null ?
-                                (userLogin.active === true && userLogin.role === 0 ? (<><span
+                            {userLoginAdmin !== null ?
+                                (userLoginAdmin.active === true && userLoginAdmin.role === 0 ? (<><span
                                     className="dropdown-toggle account-dropdown"
                                     data-toggle="dropdown"
                                     data-bs-display="static" aria-expanded="false"
                                 >
-                                    <img src={userLogin.image} width={30} height={30} className='rounded-circle' />  {userLogin.fullname}
+                                    <img src={userLoginAdmin.image} width={30} height={30} className='rounded-circle' />  {userLoginAdmin.fullname}
                                 </span>
                                     <div className="dropdown-menu m-0  custom-dropdown-menu dropdown-menu-right mt-3 rounded">
                                         <a className="dropdown-item ">

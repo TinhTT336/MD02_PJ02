@@ -18,13 +18,6 @@ export default function TrendyProducts() {
             .then(response => {
                 // console.log(response.data),
                 setProducts(response.data)
-                // const getRandomProducts = () => {
-                //     const shuffled = products.sort(() => 0.5 - Math.random());
-                //     console.log(shuffled);
-                //     const selected = shuffled.slice(0, 8);
-                //     setShuffleProduct(selected);
-                // };
-                // getRandomProducts();
                 // const filterProduct = products.filter(p => p.beforeDiscount > 0);
                 // console.log(filterProduct);
                 // const shuffled = filterProduct.sort(() => 0.5 - Math.random());

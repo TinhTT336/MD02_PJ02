@@ -8,6 +8,7 @@ import { notification } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import HeaderCopy from '../../../components/user/header/HeaderCopy';
 import instance from '../../../api/axios';
+import BackToTop from '../../../components/base/backToTop/BackToTop';
 
 export default function Checkout({ title, cartLength }) {
     const navigate = useNavigate();
@@ -88,8 +89,7 @@ export default function Checkout({ title, cartLength }) {
 
                             //giam so luong ton kho tuong ung so luong mua
                             products.data[indexProduct].stock -= item.quantity;
-                            console.log(products.data[indexProduct]);
-                            // console.log(product);
+                            // console.log(products.data[indexProduct]);
                             await instance.put(`products/${item.productId}`, products.data[indexProduct]);
                             return { ...item }
                         })
@@ -113,9 +113,7 @@ export default function Checkout({ title, cartLength }) {
 
                     //sau khi click dat hang thi phai set cart cua userLogin tren DB
                     await instance.patch(`carts/${userLoginCart.id}`, { cartDetails: [] });
-
-                    //remove cartLocal tren local va chuyen trang
-                    // localStorage.removeItem("cartLocal");
+                    //chuyen trang
                     navigate("/")
                 }
             } else {
@@ -210,6 +208,7 @@ export default function Checkout({ title, cartLength }) {
                 </div>
             </div>
             {/* Checkout End */}
+            <BackToTop />
             <Footer />
         </>
 

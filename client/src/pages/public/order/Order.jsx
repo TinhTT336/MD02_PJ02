@@ -6,6 +6,7 @@ import axios from 'axios';
 import { Button, Modal } from 'antd';
 import { formatMoney } from '../../../utils/formatData';
 import instance from '../../../api/axios';
+import BackToTop from '../../../components/base/backToTop/BackToTop';
 
 export default function Order({ title, cartLength }) {
     const [orders, setOrders] = useState([]);
@@ -253,6 +254,7 @@ export default function Order({ title, cartLength }) {
                     </div>
                 </div>
             </div>
+            <BackToTop />
             <Footer />
         </>
     )

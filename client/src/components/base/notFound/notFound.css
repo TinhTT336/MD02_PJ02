@@ -1,4 +1,7 @@
-.error-page {
+/* .error-page {
+  background: url(../../../../public/images/banner/banner.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   padding-top: 0;
   color: #fff;
@@ -6,10 +9,28 @@
 .t-flex-row {
   margin: 0 auto;
 }
+.text-primary-color {
+  color: #be5c53;
+}
 .error-page h1 {
   font-size: 12rem;
   font-family: Ubuntu, sans-serif;
 }
+
+.text-color {
+  color: #bc4a40;
+}
 .text-color-404:hover {
+  color: #fff;
+} */
+
+.container-xxl {
+  text-align: center;
+  margin-top: 60px;
+}
+.btn-bact-to-home:hover {
   color: #fff !important;
+}
+.btn-bact-to-home {
+  color: #fff;
 }

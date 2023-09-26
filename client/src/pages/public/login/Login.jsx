@@ -80,16 +80,18 @@ export default function Login() {
                         if (response.data.user.active === true) {
                             if (response.data.user.role === 0) {
                                 navigate("/admin/home")
-                                notification.success({
-                                    message: "Thành công!",
-                                    description: "Đăng nhập thành công vào trang quản trị"
-                                })
+                                // notification.success({
+                                //     message: "Thành công!",
+                                //     description: "Đăng nhập thành công vào trang quản trị"
+                                // })
+                                // localStorage.setItem("userLoginAdmin", JSON.stringify(response.data.user));
                             } else if (response.data.user.role === 1) {
                                 navigate("/");
                                 notification.success({
                                     message: "Thành công!",
                                     description: "Đăng nhập thành công vào Trang chủ"
                                 })
+                                // localStorage.setItem("userLogin", JSON.stringify(response.data.user));
                             }
                         } else {
                             notification.warning({

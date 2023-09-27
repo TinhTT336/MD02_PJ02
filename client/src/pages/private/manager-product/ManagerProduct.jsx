@@ -147,7 +147,7 @@ export default function ManagerProduct() {
                             <div><button className='py-2 px-4 rounded btn-add-product' onClick={handleShowAdd} type="button"><i className="fa-solid fa-plus"></i> Thêm mới</button></div>
                             <div className="btn-group">
                                 <Select
-                                    defaultValue="asc"
+                                    defaultValue="desc"
                                     style={{
                                         width: 220, height: 40
                                     }}
@@ -155,11 +155,11 @@ export default function ManagerProduct() {
                                     options={[
                                         {
                                             value: "asc",
-                                            label: " Sắp xếp theo giá tăng dần",
+                                            label: " Sắp xếp theo ID tăng dần",
                                         },
                                         {
                                             value: "desc",
-                                            label: "Sắp xếp theo giá giảm dần",
+                                            label: "Sắp xếp theo ID giảm dần",
                                         },
                                     ]}
                                 />
@@ -171,7 +171,7 @@ export default function ManagerProduct() {
                     <table className="table table-hover table-content ">
                         <thead >
                             <tr >
-                                <th scope="col" className='p-3'>STT</th>
+                                <th scope="col" className='p-3'>#</th>
                                 <th scope="col" className='p-3'>Hình ảnh</th>
                                 <th scope="col" className='p-3'>Sản phẩm</th>
                                 <th scope="col" className='p-3'>Tồn kho</th>

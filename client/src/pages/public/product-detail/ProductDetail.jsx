@@ -3,7 +3,7 @@ import HeaderWithNavbar from '../../../components/user/header/HeaderWithNavbar'
 import Banner from '../../../components/user/banner/Banner'
 import Footer from '../../../components/user/footer/Footer'
 import axios from 'axios'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { formatMoney } from '../../../utils/formatData';
 import "./productDetail.css";
 import { Rate } from 'antd'
@@ -19,6 +19,8 @@ export default function ProductDetail({ title, cartLength, setIsLoadCartLength }
     const [carts, setCarts] = useState([]);
     const [cartLocal, setCartLocal] = useState(JSON.parse(localStorage.getItem("cartLocal")) || []);
     // const [cartLocal, setCartLocal] = useState();
+
+    const navigate = useNavigate();
 
     // Nội dung của toast message
     const notify = () =>
@@ -63,8 +65,9 @@ export default function ProductDetail({ title, cartLength, setIsLoadCartLength }
     //ham addToCart============================================================
     const userLogin = JSON.parse(localStorage.getItem("userLogin"));
     const handleAddToCart = async (id) => {
-        if (userLogin) {
-            try {
+        // if (userLogin) {
+        try {
+            if (userLogin) {
                 //tim kiem gio hang cua nguoi dung
                 const userCart = carts.find(c => c.userId === userLogin.id);
                 // console.log(userCart);
@@ -101,14 +104,19 @@ export default function ProductDetail({ title, cartLength, setIsLoadCartLength }
                     setCarts([...carts, response.data])
                 }
                 setIsLoadCartLength(pre => !pre)
+            } else {
+                notifyLogin();
+                navigate("/login");
             }
-            catch (error) {
-                console.log(error);
-            }
-        } else {
-            notifyLogin();
-            Navigate("/login");
+
         }
+        catch (error) {
+            console.log(error);
+        }
+        // } else {
+        //     notifyLogin();
+        //     navigate("/login");
+        // }
     }
 
     return (

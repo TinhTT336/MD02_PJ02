@@ -3,7 +3,7 @@ import HeaderWithNavbar from '../../../components/user/header/HeaderWithNavbar'
 import { formatMoney } from '../../../utils/formatData';
 import "./listProduct.css";
 import Footer from '../../../components/user/footer/Footer';
-import { Link, Navigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Pagination, Select, notification } from 'antd';
 import { ToastContainer, toast } from "react-toastify";
@@ -21,6 +21,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
     const [searchText, setSearchText] = useState("");
     const [sort, setSort] = useState("desc");
     // const [cartLocal, setCartLocal] = useState(JSON.parse(localStorage.getItem("cartLocal")) || []);
+    const navigate = useNavigate();
 
     const handleFormCategories = () => {
         setFormCategories(!formCategories);
@@ -136,7 +137,7 @@ export default function ListProduct({ title, cartLength, setIsLoadCartLength }) 
             }
         } else {
             notifyLogin();
-            Navigate("/login");
+            navigate("/login");
         }
     }
 
